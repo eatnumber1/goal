@@ -12,7 +12,7 @@ return the string "goooal", etc.
 | C++           | &bull; |                  |                    |         |
 | Ruby          |        |                  |       &bull;       |         |
 | Perl          |        |                  |                    |  &bull; |
-| Python        |        |                  |                    |  &bull; |
+| Python        | &bull; |                  |                    |         |
 | C             |        |                  |       &bull;       |         |
 | Java          |        |      &bull;      |                    |         |
 | Haskell       |        |      &bull;      |                    |         |
