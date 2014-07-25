@@ -7,20 +7,21 @@ return the string "goooal", etc.
 
 # Languages
 
-|         | Solved | Thought Possible | Thought Impossible | Unknown |
-|:-------:|:------:|:----------------:|:------------------:|:-------:|
-| C++     | &bull; |                  |                    |         |
-| Ruby    |        |                  |       &bull;       |         |
-| Perl    |        |                  |                    |  &bull; |
-| Python  |        |                  |                    |  &bull; |
-| C       |        |                  |       &bull;       |         |
-| Java    |        |      &bull;      |                    |         |
-| Haskell |        |      &bull;      |                    |         |
-| Lisp    |        |                  |                    |         |
-| SH      |        |                  |       &bull;       |         |
-| BASH    |        |                  |       &bull;       |         |
-| ZSH     |        |                  |       &bull;       |         |
-| Go      |        |                  |       &bull;       |         |
-| Swift   |        |                  |                    |  &bull; |
-| Rust    |        |                  |                    |  &bull; |
-| Prolog  |        |                  |                    |  &bull; |
+|               | Solved | Thought Possible | Thought Impossible | Unknown |
+|:-------------:|:------:|:----------------:|:------------------:|:-------:|
+| C++           | &bull; |                  |                    |         |
+| Ruby          |        |                  |       &bull;       |         |
+| Perl          |        |                  |                    |  &bull; |
+| Python        |        |                  |                    |  &bull; |
+| C             |        |                  |       &bull;       |         |
+| Java          |        |      &bull;      |                    |         |
+| Haskell       |        |      &bull;      |                    |         |
+| Lisp          |        |                  |                    |         |
+| SH            |        |                  |       &bull;       |         |
+| BASH          |        |                  |       &bull;       |         |
+| ZSH           |        |                  |       &bull;       |         |
+| Go            |        |                  |       &bull;       |         |
+| Swift         |        |                  |                    |  &bull; |
+| Rust          |        |                  |                    |  &bull; |
+| Prolog        |        |                  |                    |  &bull; |
+| JavaScript    | &bull; |                  |                    |         |
