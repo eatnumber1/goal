@@ -1,4 +1,4 @@
-function goal(str){	
+function g(str){	
 	var self = this;
 	self.str = self.str || 'g';
 	
@@ -7,9 +7,9 @@ function goal(str){
 	}
 	
 	self.str += 'o';
-	return goal;
+	return g;
 };
 
-goal()('al');
-goal()()('al');
-goal()()()('al');
+g()('al');
+g()()('al');
+g()()()('al');
