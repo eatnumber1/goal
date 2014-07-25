@@ -1,13 +1,15 @@
-function g(str){	
-	var self = this;
-	self.str = self.str || 'g';
-	
-	if(str){
-		return console.log([self.str, str].join(''));	
+function g(str){
+	var goal = 'g';
+
+	function _g(str){
+		if(str){
+			return console.log([goal, str].join(''));	
+		}
+		goal += 'o';
+		return _g;
 	}
-	
-	self.str += 'o';
-	return g;
+
+	return new _g(str);
 };
 
 g()('al');
