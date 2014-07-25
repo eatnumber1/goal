@@ -3,7 +3,7 @@ function g(str){
 
 	function _g(str){
 		if(str){
-			return console.log([goal, str].join(''));	
+			return [goal, str].join('');	
 		}
 		goal += 'o';
 		return _g;
@@ -12,6 +12,6 @@ function g(str){
 	return new _g(str);
 };
 
-g()('al');
-g()()('al');
-g()()()('al');
+console.log(g()('al'));
+console.log(g()()('al'));
+console.log(g()()()('al'));
