@@ -12,7 +12,7 @@ return the string "goooal", etc.
 | C++     | &bull; |                  |                    |         |
 | Ruby    |        |                  |       &bull;       |         |
 | Perl    |        |                  |                    |  &bull; |
-| Python  |        |                  |                    |         |
+| Python  |        |                  |                    |  &bull; |
 | C       |        |                  |       &bull;       |         |
 | Java    |        |      &bull;      |                    |         |
 | Haskell |        |      &bull;      |                    |         |
@@ -21,6 +21,6 @@ return the string "goooal", etc.
 | BASH    |        |                  |       &bull;       |         |
 | ZSH     |        |                  |       &bull;       |         |
 | Go      |        |                  |       &bull;       |         |
-| Swift   |        |                  |                    |         |
-| Rust    |        |                  |                    |         |
-| Prolog  |        |                  |                    |         |
+| Swift   |        |                  |                    |  &bull; |
+| Rust    |        |                  |                    |  &bull; |
+| Prolog  |        |                  |                    |  &bull; |
