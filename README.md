@@ -24,3 +24,4 @@ return the string "goooal", etc.
 | Swift   |        |                  |                    |         |
 | Rust    |        |                  |                    |         |
 | Prolog  |        |                  |                    |         |
+| JavaScript  | &bull;       |                  |                    |         |
