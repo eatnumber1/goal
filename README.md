@@ -7,21 +7,23 @@ return the string "goooal", etc.
 
 # Languages
 
-|               | Solved | Thought Possible | Thought Impossible | Unknown |
-|:-------------:|:------:|:----------------:|:------------------:|:-------:|
-| C             |        |                  |       &bull;       |         |
-| C++           | &bull; |                  |                    |         |
-| Go            |        |                  |       &bull;       |         |
-| Haskell       |        |      &bull;      |                    |         |
-| Java          |        |      &bull;      |                    |         |
-| JavaScript    | &bull; |                  |                    |         |
-| Lisp          |        |                  |                    |         |
-| Perl          |        |                  |                    |  &bull; |
-| Prolog        |        |                  |                    |  &bull; |
-| Python        | &bull; |                  |                    |         |
-| Ruby          |        |                  |       &bull;       |         |
-| Rust          |        |                  |                    |  &bull; |
-| SH            |        |                  |       &bull;       |         |
-| BASH          |        |                  |       &bull;       |         |
-| ZSH           |        |                  |       &bull;       |         |
-| Swift         |        |                  |                    |  &bull; |
+|               | Solved            | Thought Possible | Thought Impossible | Unknown |
+|:-------------:|:-----------------:|:----------------:|:------------------:|:-------:|
+| C             | [fuck you][c-sol] |                  |                    |         |
+| C++           | &bull;            |                  |                    |         |
+| Go            |                   |                  | &bull;             |         |
+| Haskell       |                   | &bull;           |                    |         |
+| Java          |                   | &bull;           |                    |         |
+| JavaScript    | &bull;            |                  |                    |         |
+| Lisp          |                   |                  |                    |         |
+| Perl          |                   |                  |                    | &bull;  |
+| Prolog        |                   |                  |                    | &bull;  |
+| Python        | &bull;            |                  |                    |         |
+| Ruby          |                   |                  | &bull;             |         |
+| Rust          |                   |                  |                    | &bull;  |
+| SH            |                   |                  | &bull;             |         |
+| BASH          |                   |                  | &bull;             |         |
+| ZSH           |                   |                  | &bull;             |         |
+| Swift         |                   |                  |                    | &bull;  |
+
+[c-sol]: https://github.com/eatnumber1/goal/tree/master/solutions/c "This is bad and you should feel bad"
