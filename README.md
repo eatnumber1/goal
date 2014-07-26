@@ -44,7 +44,7 @@ Help out, add some more languages!
 [c-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln1 "This is bad and you should feel bad"
 [c-soln3]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln3
 [c++-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c++/soln1
-[hs-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/hs/soln1
-[js-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/js/soln1
-[py-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/py/soln1
-[rb-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/py/soln1
+[hs-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/haskell/soln1
+[js-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript/soln1
+[py-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/python/soln1
+[rb-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/ruby/nonsoln1
