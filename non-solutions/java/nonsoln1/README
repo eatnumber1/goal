@@ -1,0 +1,4 @@
+All functions in Java must be named. Even in Java 8, a lambda implements an
+interface specified in java.util.function, and can be only called using a method
+on it's interface. Therefore, it is impossible to return a function from a
+function which is callable using the bare ().

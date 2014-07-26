@@ -24,20 +24,20 @@ return the string "goooal", etc.
 
 ## Languages
 
-|               | Solved              | Likely Possible | Likely Impossible | Impossible            |
-|:-------------:|:-------------------:|:---------------:|:-----------------:|:---------------------:|
-| C             | [partial][c-soln1]  |                 | &bull;            |                       |
-| C++           | [&bull;][c++-soln1] |                 |                   |                       |
-| Go            |                     |                 | &bull;            |                       |
-| Haskell       | [&bull;][hs-soln1]  |                 |                   |                       |
-| Java          |                     | &bull;          |                   |                       |
-| JavaScript    | [&bull;][js-soln1]  |                 |                   |                       |
-| Perl          |                     |                 | &bull;            |                       |
-| Python        | [&bull;][py-soln1]  |                 |                   |                       |
-| Ruby          |                     |                 |                   | [&bull;][rb-nonsoln1] |
-| SH            |                     |                 | &bull;            |                       |
-| BASH          |                     |                 | &bull;            |                       |
-| ZSH           |                     |                 | &bull;            |                       |
+|               | Solved              | Likely Possible | Likely Impossible | Impossible              |
+|:-------------:|:-------------------:|:---------------:|:-----------------:|:-----------------------:|
+| C             | [partial][c-soln1]  |                 | &bull;            |                         |
+| C++           | [&bull;][c++-soln1] |                 |                   |                         |
+| Go            |                     |                 | &bull;            |                         |
+| Haskell       | [&bull;][hs-soln1]  |                 |                   |                         |
+| Java          |                     |                 |                   | [&bull;][java-nonsoln1] |
+| JavaScript    | [&bull;][js-soln1]  |                 |                   |                         |
+| Perl          |                     |                 | &bull;            |                         |
+| Python        | [&bull;][py-soln1]  |                 |                   |                         |
+| Ruby          |                     |                 |                   | [&bull;][rb-nonsoln1]   |
+| SH            |                     |                 | &bull;            |                         |
+| BASH          |                     |                 | &bull;            |                         |
+| ZSH           |                     |                 | &bull;            |                         |
 
 Help out, add some more languages!
 
@@ -48,3 +48,4 @@ Help out, add some more languages!
 [js-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript/soln1
 [py-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/python/soln1
 [rb-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/ruby/nonsoln1
+[java-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/java/nonsoln1
