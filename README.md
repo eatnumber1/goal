@@ -9,7 +9,7 @@ return the string "goooal", etc.
 
 |               | Solved            | Thought Possible | Thought Impossible | Unknown |
 |:-------------:|:-----------------:|:----------------:|:------------------:|:-------:|
-| C             | [fuck you][c-sol] |                  |                    |         |
+| C             | [fuck you][c-sol] |                  | &bull;             |         |
 | C++           |                   | &bull;           |                    |         |
 | Go            |                   |                  | &bull;             |         |
 | Haskell       |                   | &bull;           |                    |         |
