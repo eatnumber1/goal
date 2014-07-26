@@ -12,15 +12,15 @@ return the string "goooal", etc.
 6.   The program must not [modify itself][c-inc-soln1].
 11.  The code `g()('al')` must appear in the source.
   1.   `g()('al')` must not be a string
-  2.   `'al'` must be a string, or your language's equivalent thereof. You may use
-       your language's standard method of creating a string (e.x. C should use
-       `"`, ruby may use either `"` or `'`).
+  2.   `'al'` must be a string, or your language's equivalent thereof. You may
+       use your language's standard method of creating a string (e.x. C should
+       use `"`, ruby may use either `"` or `'`).
 7.   `g()('al')` may not print the string. If returning a string cannot be done
      in your language, you should submit rationale as to why this is impossible
      for a solution which prints a string to be accepted.
 642. You must be able to insert an infinite number of `()` calls without
-     modification to your solution. Therefore solutions like [this][c-soln3] are
-     incorrect.
+     modification to your solution. Therefore solutions like
+     [this][c-inc-soln3] are incorrect.
 9.   `g('al')` is undefined and _does not_ need to return `"gal"`.
 
 ## Languages
@@ -44,7 +44,7 @@ Help out, add some more languages!
 
 [c-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c/soln1
 [c-inc-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln1
-[c-soln3]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln3
+[c-inc-soln3]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln3
 [c++-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c++/soln1
 [hs-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/haskell/soln1
 [js-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript/soln1
