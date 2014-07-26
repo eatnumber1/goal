@@ -9,7 +9,7 @@ return the string "goooal", etc.
 1.   You are encouraged to break the rules, cleverly.
 2.   When executed, the solution must print "goal" with sufficient o's to
      demonstrate the program's functionality.
-6.   The program must not [modify itself][c-soln1].
+6.   The program must not [modify itself][c-inc-soln1].
 11.  The code `g()('al')` must appear in the source.
   1.   `g()('al')` must not be a string
   2.   `'al'` must be a string, or your language's equivalent thereof. You may use
@@ -42,6 +42,7 @@ return the string "goooal", etc.
 Help out, add some more languages!
 
 [c-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c/soln1
+[c-inc-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln1
 [c-soln3]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln3
 [c++-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c++/soln1
 [hs-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/haskell/soln1
