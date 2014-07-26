@@ -5,7 +5,7 @@ possible code which enables the code `g()('al')` to return the string "goal",
 the code `g()()('al')` to return the string "gooal", the code `g()()()('al')`
 return the string "goooal", etc.
 
-# Rules
+## Rules
 1.   You are encouraged to break the rules, cleverly.
 2.   When executed, the solution must print "goal" with sufficient o's to
      demonstrate the program's functionality.
@@ -22,7 +22,7 @@ return the string "goooal", etc.
      modification to your solution. Therefore solutions like [this][c-soln3] are
      incorrect.
 
-# Languages
+## Languages
 
 |               | Solved              | Likely Possible | Likely Impossible | Impossible            |
 |:-------------:|:-------------------:|:---------------:|:-----------------:|:---------------------:|
