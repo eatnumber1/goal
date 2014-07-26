@@ -10,13 +10,13 @@ return the string "goooal", etc.
 |               | Solved            | Likely Possible | Likely Impossible | Unknown |
 |:-------------:|:-----------------:|:---------------:|:-----------------:|:-------:|
 | C             | [fuck you][c-sol] |                 | &bull;            |         |
-| C++           |                   | &bull;          |                   |         |
+| C++           | &bull;            |                 |                   |         |
 | Go            |                   |                 | &bull;            |         |
-| Haskell       |                   | &bull;          |                   |         |
+| Haskell       | &bull;            |                 |                   |         |
 | Java          |                   | &bull;          |                   |         |
 | JavaScript    | &bull;            |                 |                   |         |
 | Lisp          |                   |                 |                   | &bull;  |
-| Perl          |                   |                 | &bull;            |         |
+| Perl          | &bull;            |                 |                   |         |
 | Prolog        |                   |                 |                   | &bull;  |
 | Python        | &bull;            |                 |                   |         |
 | Ruby          |                   |                 | &bull;            |         |
