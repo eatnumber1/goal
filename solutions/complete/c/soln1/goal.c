@@ -7,9 +7,9 @@
 #include <string.h>
 #include <stdlib.h>
 
-#define g(X) p("o" X) ? "" : f
-#define f(X) r("o" X) ? "" : h
-#define h(X) r("o" X) ? "" : f
+#define g(X) p("o" #X) ? "" : f
+#define f(X) r("o" #X) ? "" : h
+#define h(X) r("o" #X) ? "" : f
 
 char * h = "g";
 char * f = "g";
@@ -53,9 +53,9 @@ int r (const char * s)
 
 int main()
 {
-    printf("%s\n", g("al"));
-    printf("%s\n", g()("al"));
-    printf("%s\n", g()()()()()()("al"));
+    printf("%s\n", g('al'));
+    printf("%s\n", g()('al'));
+    printf("%s\n", g()()()()()()('al'));
 
     return 0;
 }
