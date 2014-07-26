@@ -26,7 +26,7 @@ return the string "goooal", etc.
 
 |               | Solved              | Likely Possible | Likely Impossible | Impossible              |
 |:-------------:|:-------------------:|:---------------:|:-----------------:|:-----------------------:|
-| C             | [partial][c-soln1]  |                 | &bull;            |                         |
+| C             | [&bull;][c-soln1]   |                 |                   |                         |
 | C++           | [&bull;][c++-soln1] |                 |                   |                         |
 | Go            |                     |                 | &bull;            |                         |
 | Haskell       | [&bull;][hs-soln1]  |                 |                   |                         |
@@ -41,7 +41,7 @@ return the string "goooal", etc.
 
 Help out, add some more languages!
 
-[c-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln1 "This is bad and you should feel bad"
+[c-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c/soln1
 [c-soln3]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln3
 [c++-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c++/soln1
 [hs-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/haskell/soln1
