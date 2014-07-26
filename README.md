@@ -21,6 +21,7 @@ return the string "goooal", etc.
 642. You must be able to insert an infinite number of `()` calls without
      modification to your solution. Therefore solutions like [this][c-soln3] are
      incorrect.
+9.   `g('al')` is undefined and _does not_ need to return `"gal"`.
 
 ## Languages
 
