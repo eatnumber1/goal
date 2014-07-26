@@ -15,6 +15,6 @@ def m(end=None):
 
 
 if __name__ == "__main__":
-    print m('rtan')
-    print m()('rtan')
-    print m()()('rtan')
+    print m('rton')
+    print m()('rton')
+    print m()()('rton')
