@@ -16,7 +16,7 @@ return the string "goooal", etc.
 | Java          |                   | &bull;           |                    |         |
 | JavaScript    | &bull;            |                  |                    |         |
 | Lisp          |                   |                  |                    |         |
-| Perl          |                   | &bull;           |                    |         |
+| Perl          |                   |                  | &bull;             |         |
 | Prolog        |                   |                  |                    | &bull;  |
 | Python        | &bull;            |                  |                    |         |
 | Ruby          |                   |                  | &bull;             |         |
