@@ -1,0 +1,3 @@
+PHP does not yet support a nested function dereferencing syntax (i.e. foo()()). 
+This may change in the future should the Uniform Variable Syntax 
+(https://wiki.php.net/rfc/uniform_variable_syntax) be accepted.

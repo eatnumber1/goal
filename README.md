@@ -45,6 +45,7 @@ already been discovered:
 | Java          |                       |                 |                   | [&bull;][java-nonsoln1] |
 | JavaScript    | [&bull;][js-soln2]    |                 |                   |                         |
 | Julia         | [&bull;][jl-soln1]    |                 |                   |                         |
+| PHP           |                       |                 |                   | [&bull;][php-nonsoln1]  |
 | Python        | [&bull;][py-soln1]    |                 |                   |                         |
 | R             | [&bull;][r-soln1]     |                 |                   |                         |
 | Ruby          |                       |                 |                   | [&bull;][rb-nonsoln1]   |
@@ -64,6 +65,7 @@ Help out, add some more languages!
 [go-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/go/soln1
 [hs-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/haskell/soln1
 [js-soln2]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript/soln2
+[php-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/php/nonsoln1
 [py-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/python/soln1
 [r-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/r/soln1
 [rb-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/ruby/nonsoln1
