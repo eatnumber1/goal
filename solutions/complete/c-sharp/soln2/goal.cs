@@ -11,17 +11,17 @@ namespace Goal {
         }
 
 
-        static string result = "";
-        delegate dynamic gd(string s = "o");
+        static string os = "";
+        delegate dynamic gd(string o = "o");
 
-        static dynamic g(string s = "o") {
-            if (s == "o") {
-                result += s;
+        static dynamic g(string o = "o") {
+            if (o == "o") {
+                os += o;
                 return (gd)g;
             } else {
-                string actualResult = "g" + result + "al";
-                result = "";
-                return actualResult;
+                string result = "g" + os + "al";
+                os = "";
+                return result;
             }
         }
     }
