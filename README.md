@@ -25,7 +25,8 @@ return the string "goooal", etc.
 
 ### Previous Solutions
 The more exciting solutions are original, not applying techniques that have
-already been discovered. The following techniques have already been discovered:
+already been discovered. The following generally applicable techniques have
+already been discovered:
 
  * [Self-modifying code][c-inc-soln1]
 
