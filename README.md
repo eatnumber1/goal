@@ -6,10 +6,9 @@ the code `g()()('al')` to return the string "gooal", the code `g()()()('al')`
 return the string "goooal", etc.
 
 ## Rules
-1.   You are encouraged to break the rules, cleverly.
+1.   _You are encouraged to break the rules, cleverly._
 2.   When executed, the solution must print "goal" with sufficient o's to
      demonstrate the program's functionality.
-6.   The program must not [modify itself][c-inc-soln1].
 11.  The code `g()('al')` must appear in the source.
   1.   `g()('al')` must not be a string
   2.   `'al'` must be a string, or your language's equivalent thereof. You may
@@ -23,6 +22,12 @@ return the string "goooal", etc.
      [this][c-inc-soln3] are incorrect.
 9.   `g('al')` is undefined and _does not_ need to return `"gal"`.
 12.  `g()('al')` must be a valid [rvalue] if applicable in your language.
+
+### Previous Solutions
+The more exciting solutions are original, not applying techniques that have
+already been discovered. The following techniques have already been discovered:
+
+ * [Self-modifying code][c-inc-soln1]
 
 ## Languages
 
