@@ -60,6 +60,7 @@ already been discovered:
 | Ruby          |                        | [&bull;][rb-non-soln]   |
 | Scala         | [&bull;][scala-soln]   |                         |
 | Shell         | [&bull;][sh-soln]      |                         |
+| ZSH           | [&bull;][zsh-soln]     |                         |
 
 Help out, add some more languages!
 
@@ -101,6 +102,7 @@ Thanks!
 [scala-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/scala
 [sh-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/shell
 [ocaml-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/ocaml
+[zsh-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/zsh
 
 [c-self-modify]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/tolmasky
 [c-limited-calls]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/crawford
