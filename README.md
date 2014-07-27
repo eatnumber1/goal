@@ -19,7 +19,7 @@ return the string "goooal", etc.
      for a solution which prints a string to be accepted.
 642. You must be able to insert an arbitrary number of `()` calls without
      modification to your solution. Therefore solutions like
-     [this][c-inc-soln3] are incorrect.
+     [this][c-limited-calls] are incorrect.
 9.  `g()('al')` must be a valid [rvalue] if applicable in your language.
 14. `g('al')` must return `"gal"`.
 12.  If you have a solution that is close, but does not meet these rules,
@@ -31,63 +31,60 @@ The more exciting solutions are original, not applying techniques that have
 already been discovered. The following generally applicable techniques have
 already been discovered:
 
- * [Self-modifying code][c-inc-soln1]
+ * [Self-modifying code][c-self-modify]
 
 ## Languages
 
-|               | Solved                  | Likely Impossible | Impossible              |
-|:-------------:|:-----------------------:|:-----------------:|:-----------------------:|
-| Bash          | [&bull;][bash-soln1]    |                   |                         |
-| C             | [&bull;][c-soln1]       |                   |                         |
-| C#            | [&bull;][cs-soln2]      |                   |                         |
-| C++           | [&bull;][c++-soln1]     |                   |                         |
-| Clojure       | [&bull;][clojure-soln1] |                   |                         |
-| Common Lisp   | [&bull;][clisp-soln1]   |                   |                         |
-| Go            | [&bull;][go-soln]       |                   |                         |
-| Groovy        | [&bull;][groovy-soln]   |                   |                         |
-| Haskell       | [&bull;][hs-soln1]      |                   |                         |
-| Java          |                         |                   | [&bull;][java-nonsoln1] |
-| JavaScript    | [&bull;][js-soln2]      |                   |                         |
-| Julia         | [&bull;][jl-soln1]      |                   |                         |
-| Lua           | [&bull;][lua-soln2]     |                   |                         |
-| Objective-J   | [&bull;][obj-j-soln1]   |                   |                         |
-| Perl          | [&bull;][perl-soln1]    |                   |                         |
-| PHP           |                         |                   | [&bull;][php-nonsoln1] |
-| Python        | [&bull;][py-soln1]      |                   |                         |
-| R             | [&bull;][r-soln1]       |                   |                         |
-| Ruby          |                         |                   | [&bull;][rb-nonsoln1]   |
-| Scala         | [&bull;][scala-soln1]   |                   |                         |
-| SH            | [&bull;][sh-soln1]      |                   |                         |
-| BASH          | [&bull;][bash-soln1]    |                   |                         |
-| ZSH           |                         | &bull;            |                         |
+|               | Solved                 | Improbable              |
+|:-------------:|:----------------------:|:-----------------------:|
+| C             | [&bull;][c-soln]       |                         |
+| C#            | [&bull;][cs-soln]      |                         |
+| C++           | [&bull;][c++-soln]     |                         |
+| Clojure       | [&bull;][clojure-soln] |                         |
+| Common Lisp   | [&bull;][clisp-soln]   |                         |
+| Go            | [&bull;][go-soln]      |                         |
+| Groovy        | [&bull;][groovy-soln]  |                         |
+| Haskell       | [&bull;][hs-soln]      |                         |
+| Java          |                        | [&bull;][java-non-soln] |
+| JavaScript    | [&bull;][js-soln]      |                         |
+| Julia         | [&bull;][jl-soln]      |                         |
+| Lua           | [&bull;][lua-soln]     |                         |
+| Objective-J   | [&bull;][obj-j-soln]   |                         |
+| Perl          | [&bull;][perl-soln]    |                         |
+| PHP           |                        | [&bull;][php-non-soln]  |
+| Python        | [&bull;][py-soln]      |                         |
+| R             | [&bull;][r-soln]       |                         |
+| Ruby          |                        | [&bull;][rb-non-soln]   |
+| Scala         | [&bull;][scala-soln]   |                         |
+| SH            | [&bull;][sh-soln]      |                         |
+| BASH          | [&bull;][bash-soln]    |                         |
 
 Help out, add some more languages!
 
-
 [rvalue]: http://en.wikipedia.org/wiki/Value_(computer_science)#lrvalue
 
-[bash-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/bash/soln1
-[c++-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c++/soln1
-[cs-soln2]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c-sharp/soln2
-[c-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c/soln1
-[clojure-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/clojure/soln1
-[clisp-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/common-lisp/soln1
-[go-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/go/soln1
-[groovy-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/groovy/soln1
-[hs-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/haskell/soln1
-[js-soln2]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript/soln2
-[jl-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/julia/soln1
-[lua-soln2]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/lua/soln2
-[obj-j-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/objective-j/soln1
-[perl-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/perl/soln1
-[py-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/python/soln1
-[r-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/r/soln1
-[scala-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/scala/soln1
-[sh-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/sh/soln1
+[bash-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/bash
+[c++-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c++
+[cs-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c-sharp
+[c-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c
+[clojure-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/clojure
+[clisp-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/common-lisp
+[go-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/go
+[groovy-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/groovy
+[hs-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/haskell
+[js-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript
+[jl-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/julia
+[lua-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/lua
+[obj-j-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/objective-j
+[perl-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/perl
+[py-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/python
+[r-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/r
+[scala-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/scala
+[sh-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/sh
 
-[c-inc-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln1
-[c-inc-soln3]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln3
+[c-self-modify]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/tolmasky
+[c-limited-calls]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/crawford
 
-[java-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/java/nonsoln1
-[rb-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/ruby/nonsoln1
-[php-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/php/nonsoln1
+[java-non-soln]: https://github.com/eatnumber1/goal/tree/master/non-solutions/java
+[php-non-soln]: https://github.com/eatnumber1/goal/tree/master/non-solutions/php
+[rb-non-soln]: https://github.com/eatnumber1/goal/tree/master/non-solutions/ruby
