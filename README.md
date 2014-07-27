@@ -52,6 +52,7 @@ already been discovered:
 | Objective-J   | [&bull;][obj-j-soln]   |                         |
 | OCaml         | [&bull;][ocaml-soln]   |                         |
 | Perl          | [&bull;][perl-soln]    |                         |
+| Perl 6        | [&bull;][perl6-soln]   |                         |
 | PHP           |                        | [&bull;][php-non-soln]  |
 | Python        | [&bull;][py-soln]      |                         |
 | R             | [&bull;][r-soln]       |                         |
@@ -94,6 +95,7 @@ Thanks!
 [lua-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/lua
 [obj-j-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/objective-j
 [perl-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/perl
+[perl6-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/perl6
 [py-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/python
 [r-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/r
 [scala-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/scala
