@@ -52,6 +52,7 @@ already been discovered:
 | Lua           | [&bull;][lua-soln2]     |                   |                         |
 | Objective-J   | [&bull;][obj-j-soln1]   |                   |                         |
 | Perl          | [&bull;][perl-soln1]    |                   |                         |
+| PHP           |                         |                   | [&bull;][php-nonsoln1] |
 | Python        | [&bull;][py-soln1]      |                   |                         |
 | R             | [&bull;][r-soln1]       |                   |                         |
 | Ruby          |                         |                   | [&bull;][rb-nonsoln1]   |
@@ -89,3 +90,4 @@ Help out, add some more languages!
 
 [java-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/java/nonsoln1
 [rb-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/ruby/nonsoln1
+[php-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/php/nonsoln1
