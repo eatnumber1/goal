@@ -43,6 +43,7 @@ already been discovered:
 | C++           | [&bull;][c++-soln1]     |                   |                         |
 | Clojure       | [&bull;][clojure-soln1] |                   |                         |
 | Common Lisp   | [&bull;][clisp-soln1]   |                   |                         |
+| D             | [&bull;][d-soln1]       |                   |                         |
 | Go            | [&bull;][go-soln]       |                   |                         |
 | Groovy        | [&bull;][groovy-soln]   |                   |                         |
 | Haskell       | [&bull;][hs-soln1]      |                   |                         |
@@ -83,6 +84,7 @@ Help out, add some more languages!
 [r-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/r/soln1
 [scala-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/scala/soln1
 [sh-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/sh/soln1
+[d-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/d/soln1
 
 [c-inc-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln1
 [c-inc-soln3]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln3
