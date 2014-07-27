@@ -6,11 +6,11 @@ the code `g()()('al')` to return the string "gooal", the code `g()()()('al')`
 return the string "goooal", etc.
 
 ## Rules
-1.   _You are encouraged to break the rules, cleverly._
+1.   *You are encouraged to break the rules, cleverly.*
 2.   When executed, the solution must print "goal" with sufficient o's to
      demonstrate the program's functionality.
 11.  The code `g()('al')` must appear in the source.
-  1.   `g()('al')` must not be a string
+  1.   `g()('al')` must not be a string literal.
   2.   `'al'` must be a string, or your language's equivalent thereof. You may
        use your language's standard method of creating a string (e.x. C should
        use `"`, ruby may use either `"` or `'`).
