@@ -43,6 +43,7 @@ already been discovered:
 | Haskell       | [&bull;][hs-soln1]  |                 |                   |                         |
 | Java          |                     |                 |                   | [&bull;][java-nonsoln1] |
 | JavaScript    | [&bull;][js-soln2]  |                 |                   |                         |
+| Julia         | [&bull;][jl-soln1]  |                 |                   |                         |
 | Python        | [&bull;][py-soln1]  |                 |                   |                         |
 | R             | [&bull;][r-soln1]   |                 |                   |                         |
 | Ruby          |                     |                 |                   | [&bull;][rb-nonsoln1]   |
@@ -64,3 +65,4 @@ Help out, add some more languages!
 [rb-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/ruby/nonsoln1
 [java-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/java/nonsoln1
 [rvalue]: http://en.wikipedia.org/wiki/Value_(computer_science)#lrvalue
+[jl-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/julia/soln1
