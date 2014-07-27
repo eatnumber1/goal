@@ -49,7 +49,7 @@ already been discovered:
 | Java          |                         |                   | [&bull;][java-nonsoln1] |
 | JavaScript    | [&bull;][js-soln2]      |                   |                         |
 | Julia         | [&bull;][jl-soln1]      |                   |                         |
-| Lua           | [&bull;][lua-soln1]     |                   |                         |
+| Lua           | [&bull;][lua-soln2]     |                   |                         |
 | Objective-J   | [&bull;][obj-j-soln1]   |                   |                         |
 | Perl          | [&bull;][perl-soln1]    |                   |                         |
 | Python        | [&bull;][py-soln1]      |                   |                         |
@@ -77,7 +77,7 @@ Help out, add some more languages!
 [js-soln2]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript/soln2
 [jl-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/julia/soln1
 [lua-soln2]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/lua/soln2
-[obj-j-soln2]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/objective-j/soln1
+[obj-j-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/objective-j/soln1
 [perl-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/perl/soln1
 [py-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/python/soln1
 [r-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/r/soln1
