@@ -57,6 +57,7 @@ already been discovered:
 | Ruby          |                         |                   | [&bull;][rb-nonsoln1]   |
 | Scala         | [&bull;][scala-soln1]   |                   |                         |
 | SH            | [&bull;][sh-soln1]      |                   |                         |
+| Tcl           | [&bull;][tcl-soln1]     |                   |                         |
 | BASH          | [&bull;][bash-soln1]    |                   |                         |
 | ZSH           |                         | &bull;            |                         |
 
@@ -89,3 +90,5 @@ Help out, add some more languages!
 
 [java-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/java/nonsoln1
 [rb-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/ruby/nonsoln1
+
+[tcl-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/tcl/soln1
