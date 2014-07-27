@@ -1,9 +1,6 @@
-g <- function(x, o = 0){
-  if (missing(x)) 
-    function(x){g(x, o + 1)}
-  else
-    paste(c('g', rep('o', o), 'al'), collapse = '')
-}
+#' R One Liner
+g <- function(x, p = 'g'){if (missing(x)) function(x) g(x, paste0(p, 'o')) else paste0(p, x)}
+
 
 print(g()('al'))
 print(g()()('al'))
