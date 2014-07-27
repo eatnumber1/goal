@@ -75,7 +75,7 @@ These are some of the editor's favorite submissions:
  * Haskell [solution][hs-ed-pick] by [capicue] with an [explanation][hs-explain]
  * Nimrod [solution][nim-ed-pick] by [dom96]
  * SH incomplete [solution][sh-ed-pick] by [csandreasen]
- * ZSH [solution][zsh-ed-pick] by [o11c]
+ * ZSH [solution][zsh-ed-pick] by [o11c] with an [explanation][zsh-explain]
 
 ## Editor's Note
 This got A LOT more popular than I expected. At the moment, there are 37 pull
@@ -136,6 +136,7 @@ Thanks!
 [nim-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/nimrod/dom96/goal.nim
 
 [hs-explain]: https://github.com/eatnumber1/goal/issues/99
+[zsh-explain]: https://github.com/eatnumber1/goal/pull/69#issuecomment-50285290
 
 [o11c]: https://github.com/o11c
 [capicue]: https://github.com/capicue
