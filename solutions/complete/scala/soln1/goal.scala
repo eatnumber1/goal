@@ -1,13 +1,10 @@
 #!/usr/bin/env scala
 
-case class O(n: Int) {
-  require(n >= 0)
-
-  def apply(): O = O(n + 1)
-  def apply(suffix: String): String = "g" + ("o" * n) + suffix
+case class O(go: String = "g") {
+  def apply() = O(go + "o")
+  def apply(al: String) = go + al
 }
-
-val g = O(0)
+val g = O()
 
 println(g("al"))
 println(g()("al"))
