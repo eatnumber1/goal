@@ -38,6 +38,7 @@ already been discovered:
 
 |               | Solved                 | Incomplete        | Improbable              |
 |:-------------:|:----------------------:|:-----------------:|:-----------------------:|
+| Brainfuck     |                        | [&bull;][bf-soln] |                         |
 | C             | [&bull;][c-soln]       |                   |                         |
 | C#            | [&bull;][cs-soln]      |                   |                         |
 | C++           | [&bull;][c++-soln]     |                   |                         |
@@ -62,6 +63,7 @@ already been discovered:
 | Ruby          |                        | [&bull;][rb-soln] | [&bull;][rb-non-soln]   |
 | Scala         | [&bull;][scala-soln]   |                   |                         |
 | Scheme        | [&bull;][scm-soln]     |                   |                         |
+| Sed           | [&bull;][sed-soln]     |                   |                         |
 | Shell         |                        | [&bull;][sh-soln] |                         |
 | ZSH           | [&bull;][zsh-soln]     |                   |                         |
 
@@ -119,6 +121,8 @@ Thanks!
 [rb-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/ruby
 [ocaml-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/ocaml
 [zsh-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/zsh
+[bf-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/brainfuck
+[sed-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/sed
 
 [c-self-modify]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/tolmasky
 [c-limited-calls]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/crawford
