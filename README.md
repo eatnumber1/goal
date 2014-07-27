@@ -61,6 +61,7 @@ already been discovered:
 | R             | [&bull;][r-soln]       |                   |                         |
 | Ruby          |                        | [&bull;][rb-soln] | [&bull;][rb-non-soln]   |
 | Scala         | [&bull;][scala-soln]   |                   |                         |
+| Scheme        | [&bull;][scm-soln]     |                   |                         |
 | Shell         |                        | [&bull;][sh-soln] |                         |
 | ZSH           | [&bull;][zsh-soln]     |                   |                         |
 
@@ -113,6 +114,7 @@ Thanks!
 [py-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/python
 [r-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/r
 [scala-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/scala
+[scm-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/scheme
 [sh-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/shell
 [rb-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/ruby
 [ocaml-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/ocaml
