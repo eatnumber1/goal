@@ -6,12 +6,9 @@
 
 struct G {
 	std::string o;
-	G(const std::string&o=""):o(o){}
-	G operator()(){return o+"o";}
-	std::string operator()(const std::string&al){return"g"+o+al;}
-};
-
-G g;
+	G operator()(){G i;i.o=o+'o';return i;}
+	std::string operator()(const char*l){return'g'+o+l;}
+} g;
 
 int main() {
 	std::cout << g("al") << std::endl;
