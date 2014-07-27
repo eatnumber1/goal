@@ -64,6 +64,14 @@ already been discovered:
 
 Help out, add some more languages!
 
+# Editor's Picks
+These are some of the editor's favorite submissions:
+
+ * ZSH [solution][zsh-ed-pick] by [o11c]
+ * Haskell [solution][hs-ed-pick] by [capicue]
+ * C [solution][c-ed-pick] by [tolmasky]
+ * SH [solution][sh-ed-pick] by [csandreasen]
+
 # Editor's Note
 This got A LOT more popular than I expected. At the moment, there are 37 pull
 requests that I need to look at. Please be patient as it may take me a few days
@@ -110,3 +118,13 @@ Thanks!
 [java-non-soln]: https://github.com/eatnumber1/goal/tree/master/non-solutions/java
 [php-non-soln]: https://github.com/eatnumber1/goal/tree/master/non-solutions/php
 [rb-non-soln]: https://github.com/eatnumber1/goal/tree/master/non-solutions/ruby
+
+[zsh-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/zsh/o11c/goal.zsh
+[hs-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/haskell/capicue/goal.hs
+[c-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/c/tolmasky/goal.c
+[sh-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/shell/csandreasen/goal.sh
+
+[o11c]: https://github.com/o11c
+[capicue]: https://github.com/capicue
+[tolmasky]: https://github.com/tolmasky
+[csandreasen]: https://github.com/csandreasen
