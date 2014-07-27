@@ -20,8 +20,11 @@ return the string "goooal", etc.
 642. You must be able to insert an infinite number of `()` calls without
      modification to your solution. Therefore solutions like
      [this][c-inc-soln3] are incorrect.
-9.   `g('al')` is undefined and _does not_ need to return `"gal"`.
-12.  `g()('al')` must be a valid [rvalue] if applicable in your language.
+9.  `g()('al')` must be a valid [rvalue] if applicable in your language.
+14. `g('al')` must return `"gal"`.
+12.  If you have a solution that is close, but does not meet these rules,
+     submit it anyway. A close and interesting solution is better than no
+     solution.
 
 ### Previous Solutions
 The more exciting solutions are original, not applying techniques that have
