@@ -68,11 +68,11 @@ Help out, add some more languages!
 ## Editor's Picks
 These are some of the editor's favorite submissions:
 
- * ZSH [solution][zsh-ed-pick] by [o11c]
- * Haskell [solution][hs-ed-pick] by [capicue]
  * C [solution][c-ed-pick] by [tolmasky]
- * SH [solution][sh-ed-pick] by [csandreasen]
  * C++ [solution][c++-ed-pick] by [derrickturk]
+ * Haskell [solution][hs-ed-pick] by [capicue]
+ * SH [solution][sh-ed-pick] by [csandreasen]
+ * ZSH [solution][zsh-ed-pick] by [o11c]
 
 ## Editor's Note
 This got A LOT more popular than I expected. At the moment, there are 37 pull
