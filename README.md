@@ -35,24 +35,28 @@ already been discovered:
 
 ## Languages
 
-|               | Solved                  | Likely Possible | Likely Impossible | Impossible              |
-|:-------------:|:---------------------  :|:---------------:|:-----------------:|:-----------------------:|
-| C             | [&bull;][c-soln1]       |                 |                   |                         |
-| C++           | [&bull;][c++-soln1]     |                 |                   |                         |
-| Clojure       | [&bull;][clojure-soln1] |                 |                   |                         |
-| Common Lisp   | [&bull;][clisp-soln1]   |                 |                   |                         |
-| Go            | [&bull;][go-soln]       |                 |                   |                         |
-| Haskell       | [&bull;][hs-soln1]      |                 |                   |                         |
-| Java          |                         |                 |                   | [&bull;][java-nonsoln1] |
-| JavaScript    | [&bull;][js-soln2]      |                 |                   |                         |
-| Julia         | [&bull;][jl-soln1]      |                 |                   |                         |
-| Python        | [&bull;][py-soln1]      |                 |                   |                         |
-| R             | [&bull;][r-soln1]       |                 |                   |                         |
-| Ruby          |                         |                 |                   | [&bull;][rb-nonsoln1]   |
-| SH            |                         |                 | &bull;            |                         |
-| BASH          |                         |                 | &bull;            |                         |
-| ZSH           |                         |                 | &bull;            |                         |
-| C#            | [&bull;][cs-soln2]      |                 |                   |                         |
+|               | Solved                | Likely Possible | Likely Impossible | Impossible              |
+|:-------------:|:---------------------:|:---------------:|:-----------------:|:-----------------------:|
+| C             | [&bull;][c-soln1]     |                 |                   |                         |
+| C++           | [&bull;][c++-soln1]   |                 |                   |                         |
+| C#            | [&bull;][cs-soln2]    |                 |                   |                         |
+| Common Lisp   | [&bull;][clisp-soln1] |                 |                   |                         |
+| Go            | [&bull;][go-soln]     |                 |                   |                         |
+| Groovy        | [&bull;][grvy-soln1]  |                 |                   |                         |
+| Haskell       | [&bull;][hs-soln1]    |                 |                   |                         |
+| Java          |                       |                 |                   | [&bull;][java-nonsoln1] |
+| JavaScript    | [&bull;][js-soln2]    |                 |                   |                         |
+| Julia         | [&bull;][jl-soln1]    |                 |                   |                         |
+| Lua           | [&bull;][lua-soln1]   |                 |                   |                         |
+| Objective-J   | [&bull;][objj-soln1]  |                 |                   |                         |
+| Perl          | [&bull;][perl-soln1]  |                 |                   |                         |
+| Python        | [&bull;][py-soln1]    |                 |                   |                         |
+| R             | [&bull;][r-soln1]     |                 |                   |                         |
+| Ruby          |                       |                 |                   | [&bull;][rb-nonsoln1]   |
+| Scala         | [&bull;][scala-soln1] |                 |                   |                         |
+| SH            | [&bull;][sh-soln1]    |                 |                   |                         |
+| BASH          |                       |                 | &bull;            |                         |
+| ZSH           |                       |                 | &bull;            |                         |
 
 Help out, add some more languages!
 
@@ -60,15 +64,21 @@ Help out, add some more languages!
 [c-inc-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln1
 [c-inc-soln3]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln3
 [c++-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c++/soln1
-[clojure-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/clojure/soln1
 [clisp-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/common-lisp/soln1
+[clj-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/clojure/soln1
 [cs-soln2]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c#/soln2
 [go-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/go/soln1
+[grvy-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/groovy/soln1
 [hs-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/haskell/soln1
 [js-soln2]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript/soln2
+[lua-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/lua/soln1
+[objj-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/objective-j
 [py-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/python/soln1
 [r-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/r/soln1
 [rb-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/ruby/nonsoln1
 [java-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/java/nonsoln1
-[rvalue]: http://en.wikipedia.org/wiki/Value_(computer_science)#lrvalue
+[scala-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/scala/soln1
+[sh-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/sh/soln1
 [jl-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/julia/soln1
+
+[rvalue]: http://en.wikipedia.org/wiki/Value_(computer_science)#lrvalue
