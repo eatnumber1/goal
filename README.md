@@ -42,6 +42,7 @@ already been discovered:
 | C++           | [&bull;][c++-soln]     |                         |
 | Clojure       | [&bull;][clojure-soln] |                         |
 | Common Lisp   | [&bull;][clisp-soln]   |                         |
+| D             | [&bull;][d-soln]       |                         |
 | Go            | [&bull;][go-soln]      |                         |
 | Groovy        | [&bull;][groovy-soln]  |                         |
 | Haskell       | [&bull;][hs-soln]      |                         |
@@ -95,6 +96,7 @@ Thanks!
 [c-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c
 [clojure-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/clojure
 [clisp-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/common-lisp
+[d-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/d
 [go-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/go
 [groovy-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/groovy
 [hs-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/haskell
