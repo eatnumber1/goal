@@ -58,8 +58,7 @@ already been discovered:
 | R             | [&bull;][r-soln]       |                         |
 | Ruby          |                        | [&bull;][rb-non-soln]   |
 | Scala         | [&bull;][scala-soln]   |                         |
-| SH            | [&bull;][sh-soln]      |                         |
-| BASH          | [&bull;][bash-soln]    |                         |
+| Shell         | [&bull;][sh-soln]      |                         |
 
 Help out, add some more languages!
 
@@ -81,7 +80,6 @@ Thanks!
 
 [rvalue]: http://en.wikipedia.org/wiki/Value_(computer_science)#lrvalue
 
-[bash-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/bash
 [c++-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c++
 [cs-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c-sharp
 [c-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c
@@ -99,7 +97,7 @@ Thanks!
 [py-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/python
 [r-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/r
 [scala-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/scala
-[sh-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/sh
+[sh-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/shell
 [ocaml-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/ocaml
 
 [c-self-modify]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/tolmasky
