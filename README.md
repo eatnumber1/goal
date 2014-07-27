@@ -36,33 +36,33 @@ already been discovered:
 
 ## Languages
 
-|               | Solved                 | Improbable              |
-|:-------------:|:----------------------:|:-----------------------:|
-| C             | [&bull;][c-soln]       |                         |
-| C#            | [&bull;][cs-soln]      |                         |
-| C++           | [&bull;][c++-soln]     |                         |
-| Clojure       | [&bull;][clojure-soln] |                         |
-| Common Lisp   | [&bull;][clisp-soln]   |                         |
-| D             | [&bull;][d-soln]       |                         |
-| Go            | [&bull;][go-soln]      |                         |
-| Groovy        | [&bull;][groovy-soln]  |                         |
-| Haskell       | [&bull;][hs-soln]      |                         |
-| Java          |                        | [&bull;][java-non-soln] |
-| JavaScript    | [&bull;][js-soln]      |                         |
-| Julia         | [&bull;][jl-soln]      |                         |
-| Lua           | [&bull;][lua-soln]     |                         |
-| Nimrod        | [&bull;][nim-soln]     |                         |
-| Objective-J   | [&bull;][obj-j-soln]   |                         |
-| OCaml         | [&bull;][ocaml-soln]   |                         |
-| Perl          | [&bull;][perl-soln]    |                         |
-| Perl 6        | [&bull;][perl6-soln]   |                         |
-| PHP           |                        | [&bull;][php-non-soln]  |
-| Python        | [&bull;][py-soln]      |                         |
-| R             | [&bull;][r-soln]       |                         |
-| Ruby          |                        | [&bull;][rb-non-soln]   |
-| Scala         | [&bull;][scala-soln]   |                         |
-| Shell         |                        | [&bull;][sh-soln]       |
-| ZSH           | [&bull;][zsh-soln]     |                         |
+|               | Solved                 | Incomplete        | Improbable              |
+|:-------------:|:----------------------:|:-----------------:|:-----------------------:|
+| C             | [&bull;][c-soln]       |                   |                         |
+| C#            | [&bull;][cs-soln]      |                   |                         |
+| C++           | [&bull;][c++-soln]     |                   |                         |
+| Clojure       | [&bull;][clojure-soln] |                   |                         |
+| Common Lisp   | [&bull;][clisp-soln]   |                   |                         |
+| D             | [&bull;][d-soln]       |                   |                         |
+| Go            | [&bull;][go-soln]      |                   |                         |
+| Groovy        | [&bull;][groovy-soln]  |                   |                         |
+| Haskell       | [&bull;][hs-soln]      |                   |                         |
+| Java          |                        |                   | [&bull;][java-non-soln] |
+| JavaScript    | [&bull;][js-soln]      |                   |                         |
+| Julia         | [&bull;][jl-soln]      |                   |                         |
+| Lua           | [&bull;][lua-soln]     |                   |                         |
+| Nimrod        | [&bull;][nim-soln]     |                   |                         |
+| Objective-J   | [&bull;][obj-j-soln]   |                   |                         |
+| OCaml         | [&bull;][ocaml-soln]   |                   |                         |
+| Perl          | [&bull;][perl-soln]    |                   |                         |
+| Perl 6        | [&bull;][perl6-soln]   |                   |                         |
+| PHP           |                        |                   | [&bull;][php-non-soln]  |
+| Python        | [&bull;][py-soln]      |                   |                         |
+| R             | [&bull;][r-soln]       |                   |                         |
+| Ruby          |                        | [&bull;][rb-soln] | [&bull;][rb-non-soln]   |
+| Scala         | [&bull;][scala-soln]   |                   |                         |
+| Shell         |                        | [&bull;][sh-soln] |                         |
+| ZSH           | [&bull;][zsh-soln]     |                   |                         |
 
 Help out, add some more languages!
 
@@ -112,7 +112,8 @@ Thanks!
 [py-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/python
 [r-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/r
 [scala-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/scala
-[sh-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/shell
+[sh-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/shell
+[rb-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/ruby
 [ocaml-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/ocaml
 [zsh-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/zsh
 
