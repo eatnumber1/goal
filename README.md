@@ -52,6 +52,11 @@ already been discovered:
 | BASH          |                       |                 | &bull;            |                         |
 | ZSH           |                       |                 | &bull;            |                         |
 | C#            | [&bull;][cs-soln2]    |                 |                   |                         |
+| Groovy        | [&bull;][groovy-soln1]|                 |                   |                         |
+| Perl          | [&bull;][perl-soln1]  |                 |                   |                         |
+| Lua           | [&bull;][lua-soln1]   |                 |                   |                         |
+| Objective-J   | [&bull;][oj-soln1]    |                 |                   |                         |
+| Scala         | [&bull;][scala-soln1] |                 |                   |                         |
 
 Help out, add some more languages!
 
@@ -70,3 +75,8 @@ Help out, add some more languages!
 [java-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/java/nonsoln1
 [rvalue]: http://en.wikipedia.org/wiki/Value_(computer_science)#lrvalue
 [jl-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/julia/soln1
+[groovy-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/groovy/soln1
+[perl-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/perl/soln1
+[oj-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/objective-j/soln1
+[scala-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/scala/soln1
+
