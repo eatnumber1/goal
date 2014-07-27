@@ -6,7 +6,6 @@
 
 #include <string>
 #include <iostream>
-#include <sstream>
 
 struct g
 {
