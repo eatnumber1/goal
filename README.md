@@ -17,7 +17,7 @@ return the string "goooal", etc.
 7.   `g()('al')` may not print the string. If returning a string cannot be done
      in your language, you should submit rationale as to why this is impossible
      for a solution which prints a string to be accepted.
-642. You must be able to insert an infinite number of `()` calls without
+642. You must be able to insert an arbitrary number of `()` calls without
      modification to your solution. Therefore solutions like
      [this][c-inc-soln3] are incorrect.
 9.  `g()('al')` must be a valid [rvalue] if applicable in your language.
