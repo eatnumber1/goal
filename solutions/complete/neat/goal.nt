@@ -1,0 +1,30 @@
+module goal;
+
+// similar to D
+struct G {
+  char[~] str;
+  void init(char[~] str) this.str = str;
+  G opCall() { return G:(str ~ "o"); }
+  string opCall(string s) { return (str ~ s)[]; }
+}
+
+alias g = G:"g";
+
+void main() {
+  writeln g("al");
+  writeln g()("al");
+  writeln g()()()()()()()()()()("al");
+  auto gg = g;
+  for 0..64 gg = gg();
+  writeln gg("al");
+}
+
+/*
+$ fcc -run goal.nt
+> gcc -m32 -Wl,--gc-sections -L/usr/local/lib -o goal .obj/std/c/setjmp.o .obj/goal.o .obj/sys.o  -lpthread -lm 
+> ./goal                                                                       
+gal
+goal
+gooooooooooal
+gooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooal
+*/
