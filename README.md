@@ -70,7 +70,7 @@ These are some of the editor's favorite submissions:
 
  * C [solution][c-ed-pick] by [tolmasky]
  * C++ [solution][c++-ed-pick] by [derrickturk]
- * Haskell [solution][hs-ed-pick] by [capicue]
+ * Haskell [solution][hs-ed-pick] by [capicue] with an [explanation][hs-explain]
  * SH [solution][sh-ed-pick] by [csandreasen]
  * ZSH [solution][zsh-ed-pick] by [o11c]
 
@@ -127,6 +127,8 @@ Thanks!
 [c-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/c/tolmasky/goal.c
 [sh-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/shell/csandreasen/goal.sh
 [c++-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/c%2B%2B/derrickturk/goal.cpp
+
+[hs-explain]: https://github.com/eatnumber1/goal/issues/99
 
 [o11c]: https://github.com/o11c
 [capicue]: https://github.com/capicue
