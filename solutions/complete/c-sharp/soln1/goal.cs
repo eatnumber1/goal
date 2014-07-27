@@ -25,7 +25,7 @@ namespace goal
             {
                 var oos = os;
                 os = 0;
-                return "g" + String.Join("o", new string[1+oos]) + al;
+                return "g" + new String('o', oos) + al;
             }
         }
     }
