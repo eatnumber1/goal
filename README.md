@@ -73,7 +73,7 @@ These are some of the editor's favorite submissions:
  * C++ [solution][c++-ed-pick] by [derrickturk]
  * Haskell [solution][hs-ed-pick] by [capicue] with an [explanation][hs-explain]
  * Nimrod [solution][nim-ed-pick] by [dom96]
- * SH [solution][sh-ed-pick] by [csandreasen]
+ * SH incomplete [solution][sh-ed-pick] by [csandreasen]
  * ZSH [solution][zsh-ed-pick] by [o11c]
 
 ## Editor's Note
