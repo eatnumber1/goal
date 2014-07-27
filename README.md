@@ -72,6 +72,7 @@ These are some of the editor's favorite submissions:
  * Haskell [solution][hs-ed-pick] by [capicue]
  * C [solution][c-ed-pick] by [tolmasky]
  * SH [solution][sh-ed-pick] by [csandreasen]
+ * C++ [solution][c++-ed-pick] by [derrickturk]
 
 ## Editor's Note
 This got A LOT more popular than I expected. At the moment, there are 37 pull
@@ -125,8 +126,10 @@ Thanks!
 [hs-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/haskell/capicue/goal.hs
 [c-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/c/tolmasky/goal.c
 [sh-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/shell/csandreasen/goal.sh
+[c++-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/c%2B%2B/derrickturk/goal.cpp
 
 [o11c]: https://github.com/o11c
 [capicue]: https://github.com/capicue
 [tolmasky]: https://github.com/tolmasky
 [csandreasen]: https://github.com/csandreasen
+[derrickturk]: https://github.com/derrickturk
