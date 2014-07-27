@@ -42,7 +42,7 @@ already been discovered:
 | Go            |                     |                 | &bull;            |                         |
 | Haskell       | [&bull;][hs-soln1]  |                 |                   |                         |
 | Java          |                     |                 |                   | [&bull;][java-nonsoln1] |
-| JavaScript    | [&bull;][js-soln1]  |                 |                   |                         |
+| JavaScript    | [&bull;][js-soln2]  |                 |                   |                         |
 | Python        | [&bull;][py-soln1]  |                 |                   |                         |
 | Ruby          |                     |                 |                   | [&bull;][rb-nonsoln1]   |
 | SH            |                     |                 | &bull;            |                         |
@@ -56,7 +56,7 @@ Help out, add some more languages!
 [c-inc-soln3]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln3
 [c++-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c++/soln1
 [hs-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/haskell/soln1
-[js-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript/soln1
+[js-soln2]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript/soln2
 [py-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/python/soln1
 [rb-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/ruby/nonsoln1
 [java-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/java/nonsoln1
