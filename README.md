@@ -60,7 +60,7 @@ Help out, add some more languages!
 [c-inc-soln3]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln3
 [c++-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c++/soln1
 [clisp-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/common-lisp/soln1
-[cs-soln2]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c#/soln1
+[cs-soln2]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c#/soln2
 [go-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/go/soln1
 [hs-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/haskell/soln1
 [js-soln2]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript/soln2
