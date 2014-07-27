@@ -4,7 +4,7 @@ object goal1 {
 
   def h(s: String) = (n: String) => s + n
 
-  implicit def f(func: String => String) = () => h(func("o"))
+  implicit def f(i: String => String) = () => h(i("o"))
 
   def main(args: Array[String]) {
     println(g("al"))
