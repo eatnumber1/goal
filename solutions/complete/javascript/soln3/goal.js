@@ -18,3 +18,8 @@ function g(arg) {
 console.log(g('al'));
 console.log(g()('al'));
 console.log(g()()()()('al'));
+
+// try this with some of the other solutions:
+var goo = g()();
+console.log(goo()()('al')); // gooooal
+console.log(goo('al')); // gooal
