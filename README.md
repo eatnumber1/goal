@@ -39,7 +39,7 @@ already been discovered:
 |:-------------:|:-------------------:|:---------------:|:-----------------:|:-----------------------:|
 | C             | [&bull;][c-soln1]   |                 |                   |                         |
 | C++           | [&bull;][c++-soln1] |                 |                   |                         |
-| Go            |                     |                 | &bull;            |                         |
+| Go            | [&bull;][go-soln]   |                 |                   |                         |
 | Haskell       | [&bull;][hs-soln1]  |                 |                   |                         |
 | Java          |                     |                 |                   | [&bull;][java-nonsoln1] |
 | JavaScript    | [&bull;][js-soln2]  |                 |                   |                         |
@@ -55,6 +55,7 @@ Help out, add some more languages!
 [c-inc-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln1
 [c-inc-soln3]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln3
 [c++-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c++/soln1
+[go-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/go/soln1
 [hs-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/haskell/soln1
 [js-soln2]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript/soln2
 [py-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/python/soln1
