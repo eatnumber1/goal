@@ -1,7 +1,8 @@
+oh = 0
 g = setmetatable({}, {
     __call = function(t, s)
         if s == nil then
-            oh = (oh or 0) + 1
+            oh = oh + 1
             return t
         else
             local o = oh
