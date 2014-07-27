@@ -1,14 +1,14 @@
 o = lambda do |letter = 'o'|
   print letter
   print "\n" unless letter == 'o'
-  return o
+  o
 end
 
 g = lambda do |letter = 'o'|
   print 'g'
   print letter
   print "\n" unless letter == 'o'
-  return o
+  o
 end
 
 g.().('al')
