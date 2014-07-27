@@ -1,5 +1,5 @@
 var holdMyBeer = '';
-var g = function() {
+window.g = function() {
   if (arguments.length > 0) {
    var temp = holdMyBeer;
    holdMyBeer = '';
