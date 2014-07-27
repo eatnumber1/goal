@@ -72,6 +72,7 @@ These are some of the editor's favorite submissions:
  * C [solution][c-ed-pick] by [tolmasky]
  * C++ [solution][c++-ed-pick] by [derrickturk]
  * Haskell [solution][hs-ed-pick] by [capicue] with an [explanation][hs-explain]
+ * Nimrod [solution][nim-ed-pick] by [dom96]
  * SH [solution][sh-ed-pick] by [csandreasen]
  * ZSH [solution][zsh-ed-pick] by [o11c]
 
@@ -130,6 +131,7 @@ Thanks!
 [c-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/c/tolmasky/goal.c
 [sh-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/incomplete/shell/csandreasen/goal.sh
 [c++-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/c%2B%2B/derrickturk/goal.cpp
+[nim-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/nimrod/dom96/goal.nim
 
 [hs-explain]: https://github.com/eatnumber1/goal/issues/99
 
@@ -138,3 +140,4 @@ Thanks!
 [tolmasky]: https://github.com/tolmasky
 [csandreasen]: https://github.com/csandreasen
 [derrickturk]: https://github.com/derrickturk
+[dom96]: https://github.com/dom96
