@@ -58,7 +58,6 @@ already been discovered:
 | Ruby          |                         |                   | [&bull;][rb-nonsoln1]   |
 | Scala         | [&bull;][scala-soln1]   |                   |                         |
 | SH            | [&bull;][sh-soln1]      |                   |                         |
-| BASH          | [&bull;][bash-soln1]    |                   |                         |
 | ZSH           |                         | &bull;            |                         |
 
 Help out, add some more languages!
