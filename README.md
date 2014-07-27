@@ -50,6 +50,7 @@ already been discovered:
 | Julia         | [&bull;][jl-soln]      |                         |
 | Lua           | [&bull;][lua-soln]     |                         |
 | Objective-J   | [&bull;][obj-j-soln]   |                         |
+| OCaml         | [&bull;][ocaml-soln]   |                         |
 | Perl          | [&bull;][perl-soln]    |                         |
 | PHP           |                        | [&bull;][php-non-soln]  |
 | Python        | [&bull;][py-soln]      |                         |
@@ -81,6 +82,7 @@ Help out, add some more languages!
 [r-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/r
 [scala-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/scala
 [sh-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/sh
+[ocaml-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/ocaml
 
 [c-self-modify]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/tolmasky
 [c-limited-calls]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/crawford
