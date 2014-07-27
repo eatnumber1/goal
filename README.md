@@ -35,23 +35,24 @@ already been discovered:
 
 ## Languages
 
-|               | Solved                | Likely Possible | Likely Impossible | Impossible              |
-|:-------------:|:---------------------:|:---------------:|:-----------------:|:-----------------------:|
-| C             | [&bull;][c-soln1]     |                 |                   |                         |
-| C++           | [&bull;][c++-soln1]   |                 |                   |                         |
-| Common Lisp   | [&bull;][clisp-soln1] |                 |                   |                         |
-| Go            | [&bull;][go-soln]     |                 |                   |                         |
-| Haskell       | [&bull;][hs-soln1]    |                 |                   |                         |
-| Java          |                       |                 |                   | [&bull;][java-nonsoln1] |
-| JavaScript    | [&bull;][js-soln2]    |                 |                   |                         |
-| Julia         | [&bull;][jl-soln1]    |                 |                   |                         |
-| Python        | [&bull;][py-soln1]    |                 |                   |                         |
-| R             | [&bull;][r-soln1]     |                 |                   |                         |
-| Ruby          |                       |                 |                   | [&bull;][rb-nonsoln1]   |
-| SH            |                       |                 | &bull;            |                         |
-| BASH          |                       |                 | &bull;            |                         |
-| ZSH           |                       |                 | &bull;            |                         |
-| C#            | [&bull;][cs-soln2]    |                 |                   |                         |
+|               | Solved                  | Likely Possible | Likely Impossible | Impossible              |
+|:-------------:|:---------------------  :|:---------------:|:-----------------:|:-----------------------:|
+| C             | [&bull;][c-soln1]       |                 |                   |                         |
+| C++           | [&bull;][c++-soln1]     |                 |                   |                         |
+| Clojure       | [&bull;][clojure-soln1] |                 |                   |                         |
+| Common Lisp   | [&bull;][clisp-soln1]   |                 |                   |                         |
+| Go            | [&bull;][go-soln]       |                 |                   |                         |
+| Haskell       | [&bull;][hs-soln1]      |                 |                   |                         |
+| Java          |                         |                 |                   | [&bull;][java-nonsoln1] |
+| JavaScript    | [&bull;][js-soln2]      |                 |                   |                         |
+| Julia         | [&bull;][jl-soln1]      |                 |                   |                         |
+| Python        | [&bull;][py-soln1]      |                 |                   |                         |
+| R             | [&bull;][r-soln1]       |                 |                   |                         |
+| Ruby          |                         |                 |                   | [&bull;][rb-nonsoln1]   |
+| SH            |                         |                 | &bull;            |                         |
+| BASH          |                         |                 | &bull;            |                         |
+| ZSH           |                         |                 | &bull;            |                         |
+| C#            | [&bull;][cs-soln2]      |                 |                   |                         |
 
 Help out, add some more languages!
 
@@ -59,6 +60,7 @@ Help out, add some more languages!
 [c-inc-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln1
 [c-inc-soln3]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln3
 [c++-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c++/soln1
+[clojure-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/clojure/soln1
 [clisp-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/common-lisp/soln1
 [cs-soln2]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c#/soln2
 [go-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/go/soln1
