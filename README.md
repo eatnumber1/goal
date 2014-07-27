@@ -39,10 +39,14 @@ already been discovered:
 |:-------------:|:-------------------:|:---------------:|:-----------------:|:-----------------------:|
 | C             | [&bull;][c-soln1]   |                 |                   |                         |
 | C++           | [&bull;][c++-soln1] |                 |                   |                         |
-| Go            | [&bull;][go-soln]   |                 |                   |                         |
+| C#            | [&bull;][c#-soln1]  |                 |                   |                         |
+| Go            | [&bull;][go-soln1]  |                 |                   |                         |
 | Haskell       | [&bull;][hs-soln1]  |                 |                   |                         |
 | Java          |                     |                 |                   | [&bull;][java-nonsoln1] |
 | JavaScript    | [&bull;][js-soln2]  |                 |                   |                         |
+| Lua           | [&bull;][lua-soln1] |                 |                   |                         |
+| Objective-J   | [&bull;][objj-soln1]|                 |                   |                         |
+| Perl          | [&bull;][perl-soln1]|                 |                   |                         |
 | Python        | [&bull;][py-soln1]  |                 |                   |                         |
 | R             | [&bull;][r-soln1]   |                 |                   |                         |
 | Ruby          |                     |                 |                   | [&bull;][rb-nonsoln1]   |
@@ -56,9 +60,13 @@ Help out, add some more languages!
 [c-inc-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln1
 [c-inc-soln3]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/soln3
 [c++-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c++/soln1
-[go-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/go/soln1
+[c#-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/c-sharp/soln1
+[go-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/go/soln1
 [hs-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/haskell/soln1
 [js-soln2]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript/soln2
+[lua-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/lua/soln1
+[objj-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/objective-j
+[perl-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/perl/soln1
 [py-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/python/soln1
 [r-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/r/soln1
 [rb-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/ruby/nonsoln1
