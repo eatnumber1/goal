@@ -62,6 +62,22 @@ already been discovered:
 
 Help out, add some more languages!
 
+# Editor's Note
+This got A LOT more popular than I expected. At the moment, there are 37 pull
+requests that I need to look at. Please be patient as it may take me a few days
+to get through them all. I'm prioritizing pull requests for new languages above
+ones for existing languages.
+
+It would be super helpful if people wanted to help out by:
+
+1. Running other's submissions and confirming that they work correctly.
+2. Checking that the submissions aren't too similar to existing solutions.
+3. Checking that they follow all the rules.
+4. Calling out particularly clever solutions.
+
+Just leave a comment on the pull request with your findings and I'll see it.
+Thanks!
+
 [rvalue]: http://en.wikipedia.org/wiki/Value_(computer_science)#lrvalue
 
 [bash-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/bash
