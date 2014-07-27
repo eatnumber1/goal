@@ -1,0 +1,14 @@
+# Here's a fun solution that does not use closures
+g <- function(x) {
+  if (missing(x)) function(...) g(...)
+  else {
+    base <- function(z) if (is.call(z)) base(z[[1]]) else deparse(z)
+    depth <- function(z) if (is.call(z)) 1 + depth(z[[1]]) else 0
+    os <- depth(Find(function(y) base(y) == 'g', sys.calls())) - 1
+    paste0(c('g', rep('o', os), 'al'), collapse = '')
+  }
+}
+
+print(g('al'))
+print(g()('al'))
+print(g()()('al'))
