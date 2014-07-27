@@ -127,7 +127,7 @@ Thanks!
 [zsh-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/zsh/o11c/goal.zsh
 [hs-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/haskell/capicue/goal.hs
 [c-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/c/tolmasky/goal.c
-[sh-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/shell/csandreasen/goal.sh
+[sh-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/incomplete/shell/csandreasen/goal.sh
 [c++-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/c%2B%2B/derrickturk/goal.cpp
 
 [hs-explain]: https://github.com/eatnumber1/goal/issues/99
