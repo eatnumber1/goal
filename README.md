@@ -64,7 +64,7 @@ already been discovered:
 
 Help out, add some more languages!
 
-# Editor's Picks
+## Editor's Picks
 These are some of the editor's favorite submissions:
 
  * ZSH [solution][zsh-ed-pick] by [o11c]
@@ -72,7 +72,7 @@ These are some of the editor's favorite submissions:
  * C [solution][c-ed-pick] by [tolmasky]
  * SH [solution][sh-ed-pick] by [csandreasen]
 
-# Editor's Note
+## Editor's Note
 This got A LOT more popular than I expected. At the moment, there are 37 pull
 requests that I need to look at. Please be patient as it may take me a few days
 to get through them all. I'm prioritizing pull requests for new languages above
