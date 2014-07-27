@@ -11,10 +11,12 @@ def g(end=None):
         g.out = ''.join([g.out, 'o'])
         return g
     else:
-        return ''.join([g.out, end])
-
+        ret = ''.join([g.out, end])
+        del g.out
+        return ret
 
 if __name__ == "__main__":
     print g('al')
     print g()('al')
     print g()()('al')
+    print g('al')
