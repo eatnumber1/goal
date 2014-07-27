@@ -7,8 +7,6 @@
      :else (first part)))))
 
 
-
-
 ;any number of parens
 (goal-reader '(
 
@@ -22,7 +20,6 @@
   g("al")
 
 ))
-
 
 (goal-reader '(
 
