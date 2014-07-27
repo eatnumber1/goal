@@ -28,10 +28,11 @@ return the string "goooal", etc.
 
 ### Previous Solutions
 The more exciting solutions are original, not applying techniques that have
-already been discovered. The following generally applicable techniques have
+already been discovered. The following broadly applicable techniques have
 already been discovered:
 
  * [Self-modifying code][c-self-modify]
+ * [Aborting early][sh-abort-early]
 
 ## Languages
 
@@ -60,7 +61,7 @@ already been discovered:
 | R             | [&bull;][r-soln]       |                         |
 | Ruby          |                        | [&bull;][rb-non-soln]   |
 | Scala         | [&bull;][scala-soln]   |                         |
-| Shell         | [&bull;][sh-soln]      |                         |
+| Shell         |                        | [&bull;][sh-soln]       |
 | ZSH           | [&bull;][zsh-soln]     |                         |
 
 Help out, add some more languages!
@@ -117,6 +118,7 @@ Thanks!
 
 [c-self-modify]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/tolmasky
 [c-limited-calls]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/crawford
+[sh-abort-early]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/shell/csandreasen/goal.sh
 
 [java-non-soln]: https://github.com/eatnumber1/goal/tree/master/non-solutions/java
 [php-non-soln]: https://github.com/eatnumber1/goal/tree/master/non-solutions/php
