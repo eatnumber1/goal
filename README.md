@@ -22,6 +22,7 @@ return the string "goooal", etc.
      modification to your solution. Therefore solutions like
      [this][c-inc-soln3] are incorrect.
 9.   `g('al')` is undefined and _does not_ need to return `"gal"`.
+12.  `g()('al')` must be a valid [rvalue] if applicable in your language.
 
 ## Languages
 
@@ -33,7 +34,6 @@ return the string "goooal", etc.
 | Haskell       | [&bull;][hs-soln1]  |                 |                   |                         |
 | Java          |                     |                 |                   | [&bull;][java-nonsoln1] |
 | JavaScript    | [&bull;][js-soln1]  |                 |                   |                         |
-| Perl          |                     |                 | &bull;            |                         |
 | Python        | [&bull;][py-soln1]  |                 |                   |                         |
 | Ruby          |                     |                 |                   | [&bull;][rb-nonsoln1]   |
 | SH            |                     |                 | &bull;            |                         |
@@ -51,3 +51,4 @@ Help out, add some more languages!
 [py-soln1]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/python/soln1
 [rb-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/ruby/nonsoln1
 [java-nonsoln1]: https://github.com/eatnumber1/goal/tree/master/non-solutions/java/nonsoln1
+[rvalue]: http://en.wikipedia.org/wiki/Value_(computer_science)#lrvalue
