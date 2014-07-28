@@ -1,4 +1,9 @@
-(defn re[& ins] 
-  (map #(println (str "g" (apply str (repeat(-(count %) 2) "o")) "al") ) ins))
+(defmacro g [& args]
+  (str "g"
+       (-> (count (filter #(empty? %) args))
+           (repeat "o")
+           (clojure.string/join)
+           (str (first (last args))))))
 
-(re '(g()()()("al")) '(g("al")) '(g()()("al")))
+(println ( g()()()("al") ) " " ( g("al") ) " " ( g()()("al") ) )
+;=> goooal gal gooal
