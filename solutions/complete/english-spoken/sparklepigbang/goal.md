@@ -1,0 +1,4 @@
+The proceeding instructions pertain to all the text in this document following (but not including) this paragraph. When reading the text, whenever you encounter a word of symbols beginning with the lower-case letter 'g' followed by an open parenthesis, the symbol-word must be translated, by using the procedure outlined in the following two sentences, before being read aloud. All instances of an open parenthesis followed immediately by a closed parenthesis must be replaced by the lower-case letter 'o'. After this, all remaining non-alphabet characters must be removed from the symbol-word.
+
+g()('al')
+g()()()('al')
