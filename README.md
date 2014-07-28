@@ -5,6 +5,8 @@ possible code which enables the code `g()('al')` to return the string "goal",
 the code `g()()('al')` to return the string "gooal", the code `g()()()('al')`
 return the string "goooal", etc.
 
+`g()('al')` is the creation of [acruikshank](https://github.com/acruikshank) who originally posed it as a [functional programming challenge](https://github.com/carbonfive/functional-programming-weekly-challenge/tree/master/Week002). Extensive stubbornness and misinterpretation led to its current form.
+
 ## Rules
 1.   *You are encouraged to break the rules, cleverly.*
 2.   When executed, the solution must print "goal" with sufficient o's to
