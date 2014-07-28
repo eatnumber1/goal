@@ -1,12 +1,9 @@
-function g(p) {
-    function i(os) {
-        function n(x) {
-            return x ? 'g' + os + x : i(os + 'o');
-        }
-        return n;
+function i(pre) {
+    return function (x) {
+        return x ? pre + x : i(pre + 'o');
     }
-    return p ? i('')(p) : i('o');
 }
+var g = i('g');
 
 console.log(g('al'));
 console.log(g()('al'));
