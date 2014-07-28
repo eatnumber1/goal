@@ -153,3 +153,5 @@ Thanks!
 [csandreasen]: https://github.com/csandreasen
 [derrickturk]: https://github.com/derrickturk
 [dom96]: https://github.com/dom96
+
+[//]: # ( vim: set et ts=4 sw=4 sts=4 tw=80: )
