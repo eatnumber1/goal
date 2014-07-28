@@ -5,7 +5,9 @@ possible code which enables the code `g()('al')` to return the string "goal",
 the code `g()()('al')` to return the string "gooal", the code `g()()()('al')`
 return the string "goooal", etc.
 
-`g()('al')` is the creation of [acruikshank](https://github.com/acruikshank) who originally posed it as a [functional programming challenge](https://github.com/carbonfive/functional-programming-weekly-challenge/tree/master/Week002). Extensive stubbornness and misinterpretation led to its current form.
+`g()('al')` is the creation of [acruikshank] who originally posed it as a
+[functional programming challenge][carbonfive-challenge]. Extensive stubbornness
+and misinterpretation led to its current form.
 
 ## Rules
 1.   *You are encouraged to break the rules, cleverly.*
@@ -153,5 +155,8 @@ Thanks!
 [csandreasen]: https://github.com/csandreasen
 [derrickturk]: https://github.com/derrickturk
 [dom96]: https://github.com/dom96
+[acruikshank]: https://github.com/acruikshank
+
+[carbonfive-challenge]: https://github.com/carbonfive/functional-programming-weekly-challenge/tree/master/Week002
 
 [//]: # ( vim: set et ts=4 sw=4 sts=4 tw=80: )
