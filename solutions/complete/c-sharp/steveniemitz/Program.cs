@@ -12,20 +12,23 @@ namespace gooooal
     {
         static void Main(string[] args)
         {
-            var g = GetPumped();
-
             Console.WriteLine(g("al"));
             Console.WriteLine(g()("al"));
             Console.WriteLine(g()()()("al"));
             Console.WriteLine(g()()()()()()("al"));
         }
+        
+        private delegate Goal Goal(string al = null);
+
+        private static Goal g(string al = null)
+        {
+            return (((IGoal)(new GoalProxy().GetTransparentProxy())).g)(al);
+        }
 
         private interface IGoal
         {
             Goal g(string al = null);
-        }
-
-        private delegate Goal Goal(string al = null);
+        }       
 
         private class GoalProxy : RealProxy
         {
@@ -40,13 +43,14 @@ namespace gooooal
             {
                 var mcm = (IMethodCallMessage)msg;
 
-                if ((string)mcm.Args[0] == "al")
+                string arg = (string)mcm.Args[0];
+                if (arg != null)
                 {
                     var field = msg.GetType().GetField("_flags", BindingFlags.NonPublic | BindingFlags.Instance);
                     var oldFlags = (int)field.GetValue(msg);
                     field.SetValue(msg, oldFlags | 1);
 
-                    var retStr = "g" + new string('o', _n) + "al";
+                    var retStr = "g" + new string('o', _n) + arg;
 
                     return new ReturnMessage(retStr, null, 0, null, mcm);
                 }
@@ -56,16 +60,6 @@ namespace gooooal
                     return new ReturnMessage(new Goal(((IGoal)(this.GetTransparentProxy())).g), null, 0, null, mcm);
                 }
             }
-
-            public override string ToString()
-            {
-                return base.ToString();
-            }
-        }
-        
-        static Goal GetPumped()
-        {
-            return ((IGoal)(new GoalProxy().GetTransparentProxy())).g;
         }
     }
 }
