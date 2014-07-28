@@ -1,20 +1,14 @@
 
-def method_missing(meth, *args, &block)
-	super unless meth.to_s.match(/^go*/)
-	"#{meth}al"
+def method_missing meth, *args, &block 
+	super unless meth.to_s.match /^g.*/
+	"#{meth}al".gsub '（）', 'o'
 end
 
-code = DATA.read.gsub('()','o')
-eval(code)
-
-__END__
-
 gal = g('al')
-goal = g()('al')
-gooal = g()()('al')
+p gal
 
+goal = g（）('al')
+p goal
 
-puts gal
-puts goal
-puts gooal
-puts g()()()()()()()()()()('al')
+gooal = g（）（）('al')
+p gooal

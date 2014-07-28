@@ -6,7 +6,7 @@ def method_missing(meth, *args, &block)
 end
 
 begin
-	load 'goalv2_.rb'
+	load 'goal_.rb'
 rescue SyntaxError => e
 	DebatablyCorrect = eval e.message.split("\n")[1].gsub('()', 'o')
 	p DebatablyCorrect
