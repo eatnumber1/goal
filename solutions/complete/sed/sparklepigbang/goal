@@ -1,2 +1,2 @@
-#!/bin/sed -e s/#.*//g;s/()/o/g;s/('al')/al/g
+#!/bin/sed -e s/#.*//;s/()/o/g;s/[()']//g
 g()()()('al')
