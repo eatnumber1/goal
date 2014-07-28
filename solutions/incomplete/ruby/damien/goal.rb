@@ -1,6 +1,6 @@
 #! /usr/bin/env ruby
 
-# Simply execute this file and any code after __DATA__
+# Simply execute this file and any code after __END__
 # shall be executed in accordance to the rules set fourth
 # by https://github.com/eatnumber1/goal
 
