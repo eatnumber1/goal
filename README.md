@@ -33,6 +33,7 @@ already been discovered:
 
  * [Self-modifying code][c-self-modify]
  * [Aborting early][sh-abort-early]
+ * [Human language][eng-soln]
 
 ## Languages
 
@@ -47,6 +48,7 @@ already been discovered:
 | D             | [&bull;][d-soln]       |                   |                         |
 | Go            | [&bull;][go-soln]      |                   |                         |
 | Groovy        | [&bull;][groovy-soln]  |                   |                         |
+| English       | [&bull;][eng-soln]     |                   |                         |
 | Haskell       | [&bull;][hs-soln]      |                   |                         |
 | Java          |                        |                   | [&bull;][java-non-soln] |
 | JavaScript    | [&bull;][js-soln]      |                   |                         |
@@ -123,6 +125,7 @@ Thanks!
 [zsh-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/zsh
 [bf-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/brainfuck
 [sed-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/sed
+[eng-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/english-spoken
 
 [c-self-modify]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/tolmasky
 [c-limited-calls]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/crawford
