@@ -66,7 +66,7 @@ already been discovered:
 | PHP           |                        |                   | [&bull;][php-non-soln]  |
 | Python        | [&bull;][py-soln]      |                   |                         |
 | R             | [&bull;][r-soln]       |                   |                         |
-| Ruby          |                        | [&bull;][rb-soln] | [&bull;][rb-non-soln]   |
+| Ruby          | [&bull;][rb-soln]      |                   |                         |
 | Scala         | [&bull;][scala-soln]   |                   |                         |
 | Scheme        | [&bull;][scm-soln]     |                   |                         |
 | Sed           | [&bull;][sed-soln]     |                   |                         |
@@ -124,7 +124,7 @@ Thanks!
 [scala-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/scala
 [scm-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/scheme
 [sh-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/shell
-[rb-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/ruby
+[rb-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/ruby
 [ocaml-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/ocaml
 [zsh-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/zsh
 [bf-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/brainfuck
@@ -137,7 +137,6 @@ Thanks!
 
 [java-non-soln]: https://github.com/eatnumber1/goal/tree/master/non-solutions/java
 [php-non-soln]: https://github.com/eatnumber1/goal/tree/master/non-solutions/php
-[rb-non-soln]: https://github.com/eatnumber1/goal/tree/master/non-solutions/ruby
 
 [zsh-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/zsh/o11c/goal.zsh
 [hs-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/haskell/capicue/goal.hs
