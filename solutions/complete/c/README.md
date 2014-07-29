@@ -1,4 +1,4 @@
- * Original solution: [tolmasky]
- * Shortest solution: [tolmasky]
+ * [Original][tolmasky]
+ * [Shortest][tolmasky]
 
 [tolmasky]: tolmasky
