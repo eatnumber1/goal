@@ -9,6 +9,6 @@ function! s:g(...)
   return function('s:g')
 endfunction
 
-echo s:g()()("al")
-echo s:g("al")
-echo s:g()()()()()()()()()()()()()()()("al")
+echo s:g()()('al')
+echo s:g('al')
+echo s:g()()()()()()()()()()()()()()()('al')
