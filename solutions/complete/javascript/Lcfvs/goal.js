@@ -3,13 +3,13 @@ function g(suffix){
   
   (store = this) === window
     ? (store = {
-      store: 'g'
-    }, store.goal = goal.bind(t))
+      goal: 'g'
+    }, store.g = g.bind(store))
     : store;
   
   return suffix
     ? store.goal + suffix
-    : (store.goal += 'o', t.g);
+    : (store.goal += 'o', store.g);
 }
 
 console.log(g('al')); // gal
@@ -18,4 +18,4 @@ console.log(g()()()()('al')); // gooooal
 
 var goo = g()();
 console.log(goo()()('al')); // gooooal
-console.log(goo('al')); // gooooooal
+console.log(goo('al')); // gooooal
