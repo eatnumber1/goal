@@ -13,7 +13,7 @@ public class Main {
 	}
 	
 	public static void gWillMagicallyBeInvoked() {
-		System.out.println(g()()()()()("al"));
+		System.out.println(g()("al"));
 	}
 	
 	public static void g() {
