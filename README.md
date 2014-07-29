@@ -102,37 +102,37 @@ Just leave a comment on the pull request with your findings and I'll see it.
 Thanks!
 
 [//]: # (Solution URLs)
+[bf-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/brainfuck
 [c++-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/c++
-[cs-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/c-sharp
 [c-soln]:       https://github.com/eatnumber1/goal/tree/master/solutions/complete/c
-[clojure-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/clojure
 [clisp-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/common-lisp
+[clojure-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/clojure
+[cs-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/c-sharp
 [d-soln]:       https://github.com/eatnumber1/goal/tree/master/solutions/complete/d
+[eng-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/english-spoken
 [go-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/go
 [groovy-soln]:  https://github.com/eatnumber1/goal/tree/master/solutions/complete/groovy
 [hs-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/haskell
-[js-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript
 [jl-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/julia
+[js-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript
 [lua-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/lua
 [nim-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/nimrod
 [obj-j-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/objective-j
+[ocaml-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/ocaml
 [perl-soln]:    https://github.com/eatnumber1/goal/tree/master/solutions/complete/perl
 [perl6-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/perl6
 [py-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/python
 [r-soln]:       https://github.com/eatnumber1/goal/tree/master/solutions/complete/r
+[rb-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/ruby
 [scala-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/scala
 [scm-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/scheme
-[sh-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/shell
-[rb-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/ruby
-[ocaml-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/ocaml
-[zsh-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/zsh
-[bf-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/brainfuck
 [sed-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/sed
-[eng-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/english-spoken
+[sh-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/shell
+[zsh-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/zsh
 
 [//]: # (Bad solution URLs)
-[c-self-modify]:   https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/tolmasky
 [c-limited-calls]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/crawford
+[c-self-modify]:   https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/tolmasky
 [sh-abort-early]:  https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/shell/csandreasen/goal.sh
 
 [//]: # (Non-solution URLs)
@@ -140,25 +140,25 @@ Thanks!
 [php-non-soln]:  https://github.com/eatnumber1/goal/tree/master/non-solutions/php
 
 [//]: # (Editor's pick URLs)
-[zsh-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/zsh/o11c/goal.zsh
-[hs-ed-pick]:  https://github.com/eatnumber1/goal/blob/master/solutions/complete/haskell/capicue/goal.hs
-[c-ed-pick]:   https://github.com/eatnumber1/goal/blob/master/solutions/complete/c/tolmasky/goal.c
-[sh-ed-pick]:  https://github.com/eatnumber1/goal/blob/master/solutions/incomplete/shell/csandreasen/goal.sh
 [c++-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/c%2B%2B/derrickturk/goal.cpp
+[c-ed-pick]:   https://github.com/eatnumber1/goal/blob/master/solutions/complete/c/tolmasky/goal.c
+[hs-ed-pick]:  https://github.com/eatnumber1/goal/blob/master/solutions/complete/haskell/capicue/goal.hs
 [nim-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/nimrod/dom96/goal.nim
+[sh-ed-pick]:  https://github.com/eatnumber1/goal/blob/master/solutions/incomplete/shell/csandreasen/goal.sh
+[zsh-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/zsh/o11c/goal.zsh
 
 [//]: # (Solution explanation URLs)
 [hs-explain]:  https://github.com/eatnumber1/goal/issues/99
 [zsh-explain]: https://github.com/eatnumber1/goal/pull/69#issuecomment-50285290
 
 [//]: # (User URLs)
-[o11c]:        https://github.com/o11c
+[acruikshank]: https://github.com/acruikshank
 [capicue]:     https://github.com/capicue
-[tolmasky]:    https://github.com/tolmasky
 [csandreasen]: https://github.com/csandreasen
 [derrickturk]: https://github.com/derrickturk
 [dom96]:       https://github.com/dom96
-[acruikshank]: https://github.com/acruikshank
+[o11c]:        https://github.com/o11c
+[tolmasky]:    https://github.com/tolmasky
 
 [//]: # (Other URLs)
 [carbonfive-challenge]: https://github.com/carbonfive/functional-programming-weekly-challenge/tree/master/Week002
