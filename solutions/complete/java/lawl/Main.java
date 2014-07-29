@@ -310,11 +310,11 @@ public class Main {
         while ((il = in.readLine()) != null) 
             n+=il.split("Syntax error", -1).length-1;
         in.close();
-		System.out.println(g(n));
+		System.out.println(g(new String(new char[n]).replace("\0", "o")));
 	}
 		
-	public static String g(int x) {
-		return "g" + new String(new char[x]).replace("\0", "o") + "al";
+	public static String g(String x) {
+		return "g" + x + "al";
 	}
 }
 
