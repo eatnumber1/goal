@@ -18,7 +18,7 @@ func (s score) String() (res string) {
 }
 
 func g(arg ...string) score {
-	base := "go"
+	base := "g"
 	var f score
 	f = func(arg ...string) score {
 		switch (len(arg)) {
