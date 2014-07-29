@@ -75,6 +75,14 @@ already been discovered:
 
 Help out, add some more languages!
 
+## g()('lf')
+Lets play [golf]! Submit a pull-request with a shorter solution for an already
+solved language and you can get the title of shortest, as shown in that
+language's [README][c-sharp-readme].
+
+Note: I'm not done making READMEs for all the languages yet. Don't let that stop
+you!
+
 ## Editor's Picks
 These are some of the editor's favorite submissions:
 
@@ -162,6 +170,8 @@ Thanks!
 
 [//]: # (Other URLs)
 [carbonfive-challenge]: https://github.com/carbonfive/functional-programming-weekly-challenge/tree/master/Week002
+[golf]:                 http://en.wikipedia.org/wiki/Code_golf
 [rvalue]:               http://en.wikipedia.org/wiki/Value_(computer_science)#lrvalue
+[c-sharp-readme]:       https://github.com/eatnumber1/goal/blob/master/solutions/complete/c-sharp/README.md
 
 [//]: # ( vim: set et ts=4 sw=4 sts=4 tw=80: )
