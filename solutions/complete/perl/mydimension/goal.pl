@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use 5.12.0;
+use 5.10.0;
 
 BEGIN {
     use Filter::Simple sub { s{\)\(}{)->(}g };
