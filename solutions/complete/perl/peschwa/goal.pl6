@@ -6,6 +6,8 @@ through the caller. This is functionally similar to a
 global variable here. Resetting the dynamic variable
 happens with a boolean mixin, which makes it get
 reinitialized on repeated calls.
+
+This requires perl6
 =cut
 
 my $*GOAL;
