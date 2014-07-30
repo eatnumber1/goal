@@ -102,7 +102,6 @@ ones for existing languages.
 It would be super helpful if people wanted to help out by:
 
 1. Running other's submissions and confirming that they work correctly.
-2. Checking that the submissions aren't too similar to existing solutions.
 3. Checking that they follow all the rules.
 4. Calling out particularly clever solutions.
 
