@@ -27,10 +27,10 @@ and misinterpretation led to its current form.
      [this][c-limited-calls] are incorrect.
 14. `g('al')` must return `"gal"`.
 
+If you see a complete solution that breaks any of these rules, file a bug!
+
 If you have a solution that is close, but does not meet these rules, submit it
 anyway. A close and interesting solution is better than no solution.
-
-If you see a solution that breaks any of these rules, file a bug!
 
 ### Previous Solutions
 The more exciting solutions are original, not applying techniques that have
