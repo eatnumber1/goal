@@ -10,7 +10,7 @@ return the string "goooal", etc.
 and misinterpretation led to its current form.
 
 ## Rules
-1.   *You are encouraged to break the rules, cleverly.*
+1.   __You are encouraged to break the rules, cleverly.__
 2.   When executed, the solution must print "goal" with sufficient o's to
      demonstrate the program's functionality.
 11.  The code `g()('al')` must appear in the source.
@@ -18,13 +18,13 @@ and misinterpretation led to its current form.
   2.   `'al'` must be a string, or your language's equivalent thereof. You may
        use your language's standard method of creating a string (e.x. C should
        use `"`, ruby may use either `"` or `'`).
+  12.  `g()('al')` must be a valid [rvalue] if applicable in your language.
 7.   `g()('al')` may not print the string. If returning a string cannot be done
      in your language, you should submit rationale as to why this is impossible
      for a solution which prints a string to be accepted.
 642. You must be able to insert an arbitrary number of `()` calls without
      modification to your solution. Therefore solutions like
      [this][c-limited-calls] are incorrect.
-9.  `g()('al')` must be a valid [rvalue] if applicable in your language.
 14. `g('al')` must return `"gal"`.
 12.  If you have a solution that is close, but does not meet these rules,
      submit it anyway. A close and interesting solution is better than no
