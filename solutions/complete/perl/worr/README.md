@@ -25,7 +25,7 @@ Since my filter doesn't catch 'g()', I use a C preprocessor macro to do that
 replacement.
 
 `__o()` is simple, as it calls a different function, `o`, unless it was passed
-an argument. If it was passed an argumen ('al', in our case) it just returns
+an argument. If it was passed an argument ('al', in our case) it just returns
 it.
 
 `o` on the other hand, returns the return value caller, which is a stringified
