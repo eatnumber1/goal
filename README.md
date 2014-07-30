@@ -26,9 +26,9 @@ and misinterpretation led to its current form.
      modification to your solution. Therefore solutions like
      [this][c-limited-calls] are incorrect.
 14. `g('al')` must return `"gal"`.
-12.  If you have a solution that is close, but does not meet these rules,
-     submit it anyway. A close and interesting solution is better than no
-     solution.
+
+If you have a solution that is close, but does not meet these rules, submit it
+anyway. A close and interesting solution is better than no solution.
 
 ### Previous Solutions
 The more exciting solutions are original, not applying techniques that have
