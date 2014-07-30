@@ -27,4 +27,3 @@ sub g { return $g(@_); }
 
 print g('al');
 print g()()()('al');
-#     ^- this sigil makes this incomplete.
