@@ -41,37 +41,38 @@ already been discovered:
 
 ## Languages
 
-|               | Solved                 | Incomplete        | Improbable              |
-|:-------------:|:----------------------:|:-----------------:|:-----------------------:|
-| Brainfuck     |                        | [&bull;][bf-soln] |                         |
-| C             | [&bull;][c-soln]       |                   |                         |
-| C#            | [&bull;][cs-soln]      |                   |                         |
-| C++           | [&bull;][c++-soln]     |                   |                         |
-| Clojure       | [&bull;][clojure-soln] |                   |                         |
-| Common Lisp   | [&bull;][clisp-soln]   |                   |                         |
-| D             | [&bull;][d-soln]       |                   |                         |
-| Go            | [&bull;][go-soln]      |                   |                         |
-| Groovy        | [&bull;][groovy-soln]  |                   |                         |
-| English       | [&bull;][eng-soln]     |                   |                         |
-| Haskell       | [&bull;][hs-soln]      |                   |                         |
-| Java          |                        |                   | [&bull;][java-non-soln] |
-| JavaScript    | [&bull;][js-soln]      |                   |                         |
-| Julia         | [&bull;][jl-soln]      |                   |                         |
-| Lua           | [&bull;][lua-soln]     |                   |                         |
-| Nimrod        | [&bull;][nim-soln]     |                   |                         |
-| Objective-J   | [&bull;][obj-j-soln]   |                   |                         |
-| OCaml         | [&bull;][ocaml-soln]   |                   |                         |
-| Perl          | [&bull;][perl-soln]    |                   |                         |
-| Perl 6        | [&bull;][perl6-soln]   |                   |                         |
-| PHP           |                        |                   | [&bull;][php-non-soln]  |
-| Python        | [&bull;][py-soln]      |                   |                         |
-| R             | [&bull;][r-soln]       |                   |                         |
-| Ruby          | [&bull;][rb-soln]      |                   |                         |
-| Scala         | [&bull;][scala-soln]   |                   |                         |
-| Scheme        | [&bull;][scm-soln]     |                   |                         |
-| Sed           | [&bull;][sed-soln]     |                   |                         |
-| Shell         |                        | [&bull;][sh-soln] |                         |
-| ZSH           | [&bull;][zsh-soln]     |                   |                         |
+|               | Solved                 | Incomplete            | Improbable              |
+|:-------------:|:----------------------:|:---------------------:|:-----------------------:|
+| Brainfuck     |                        | [&bull;][bf-soln]     |                         |
+| C             | [&bull;][c-soln]       |                       |                         |
+| C#            | [&bull;][cs-soln]      |                       |                         |
+| C++           | [&bull;][c++-soln]     |                       |                         |
+| Clojure       | [&bull;][clojure-soln] |                       |                         |
+| Common Lisp   | [&bull;][clisp-soln]   |                       |                         |
+| D             | [&bull;][d-soln]       |                       |                         |
+| English       | [&bull;][eng-soln]     |                       |                         |
+| Go            | [&bull;][go-soln]      |                       |                         |
+| Groovy        | [&bull;][groovy-soln]  |                       |                         |
+| Haskell       | [&bull;][hs-soln]      |                       |                         |
+| Java          |                        |                       | [&bull;][java-non-soln] |
+| JavaScript    | [&bull;][js-soln]      |                       |                         |
+| Julia         | [&bull;][jl-soln]      |                       |                         |
+| Lua           | [&bull;][lua-soln]     |                       |                         |
+| Nimrod        | [&bull;][nim-soln]     |                       |                         |
+| OCaml         | [&bull;][ocaml-soln]   |                       |                         |
+| Objective-J   | [&bull;][obj-j-soln]   |                       |                         |
+| PHP           |                        |                       | [&bull;][php-non-soln]  |
+| Perl          | [&bull;][perl-soln]    |                       |                         |
+| Perl 6        | [&bull;][perl6-soln]   |                       |                         |
+| Python        | [&bull;][py-soln]      |                       |                         |
+| R             | [&bull;][r-soln]       |                       |                         |
+| Regexp        |                        | [&bull;][regexp-soln] |                         |
+| Ruby          | [&bull;][rb-soln]      |                       |                         |
+| Scala         | [&bull;][scala-soln]   |                       |                         |
+| Scheme        | [&bull;][scm-soln]     |                       |                         |
+| Sed           | [&bull;][sed-soln]     |                       |                         |
+| Shell         |                        | [&bull;][sh-soln]     |                         |
+| ZSH           | [&bull;][zsh-soln]     |                       |                         |
 
 Help out, add some more languages!
 
@@ -129,6 +130,7 @@ Thanks!
 [perl6-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/perl6
 [py-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/python
 [r-soln]:       https://github.com/eatnumber1/goal/tree/master/solutions/complete/r
+[regexp-soln]:  https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/regexp
 [rb-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/ruby
 [scala-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/scala
 [scm-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/scheme
