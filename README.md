@@ -91,7 +91,7 @@ These are some of the editor's favorite submissions:
  * C++ [solution][c++-ed-pick] by [derrickturk]
  * Haskell [solution][hs-ed-pick] by [capicue] with an [explanation][hs-explain]
  * Nimrod [solution][nim-ed-pick] by [dom96]
- * Perl [solution][perl-ed-pick] by [worr]
+ * Perl [solution][perl-ed-pick] by [worr] with an [explanation][perl-explain]
  * SH incomplete [solution][sh-ed-pick] by [csandreasen]
  * ZSH [solution][zsh-ed-pick] by [o11c] with an [explanation][zsh-explain]
 
@@ -158,8 +158,9 @@ Thanks!
 [zsh-ed-pick]:  https://github.com/eatnumber1/goal/blob/master/solutions/complete/zsh/o11c/goal.zsh
 
 [//]: # (Solution explanation URLs)
-[hs-explain]:  https://github.com/eatnumber1/goal/issues/99
-[zsh-explain]: https://github.com/eatnumber1/goal/pull/69#issuecomment-50285290
+[hs-explain]:   https://github.com/eatnumber1/goal/issues/99
+[zsh-explain]:  https://github.com/eatnumber1/goal/pull/69#issuecomment-50285290
+[perl-explain]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/perl/worr/README.md
 
 [//]: # (User URLs)
 [acruikshank]: https://github.com/acruikshank
