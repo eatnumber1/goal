@@ -19,4 +19,4 @@
     $g = g();
     $g = $g();
     $g = $g();
-    echo $g('al');
+    echo $g('al'); // goooal
