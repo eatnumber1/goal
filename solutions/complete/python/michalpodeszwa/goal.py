@@ -9,8 +9,14 @@ output = "g"
 def g(s=None):
     global output
     if s:
-        return output+s
+        temp = output
+        output = "g"
+        return temp+s
     output += "o"
     return g
 
+print(g()()()()("al"))
+print(g()()()("al"))
+print(g()()("al"))
+print(g()("al"))
 print(g("al"))
