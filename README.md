@@ -65,6 +65,7 @@ already been discovered:
 | Objective-J   | [&bull;][obj-j-soln]   |                       |                         |
 | PHP           |                        |                       | [&bull;][php-non-soln]  |
 | Perl          | [&bull;][perl-soln]    |                       |                         |
+| Perl 6        | [&bull;][perl6-soln]   |                       |                         |
 | Python        | [&bull;][py-soln]      |                       |                         |
 | R             | [&bull;][r-soln]       |                       |                         |
 | Regexp        |                        | [&bull;][regexp-soln] |                         |
@@ -129,6 +130,7 @@ Thanks!
 [obj-j-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/objective-j
 [ocaml-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/ocaml
 [perl-soln]:    https://github.com/eatnumber1/goal/tree/master/solutions/complete/perl
+[perl6-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/perl6
 [py-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/python
 [r-soln]:       https://github.com/eatnumber1/goal/tree/master/solutions/complete/r
 [regexp-soln]:  https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/regexp
