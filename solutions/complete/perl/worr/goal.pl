@@ -9,7 +9,7 @@ sub o { caller }
 
 package o;
 sub __o { o unless shift }
-sub __g { substr((keys %o::)[1], 2); }
+sub __g { substr((keys %o::)[1], 2) }
 
 print g()()("al") . "\n";
 print g()()()()("al") . "\n";
