@@ -5,6 +5,8 @@ It works by assign the empty string to a variable and mixing
 in a role that implements the postfix operator () and returns
 the string 'g' with a different role mixed in, which implements
 the same operator differently, to create the correct output.
+
+This requires perl6
 =cut
 
 role o-role {
