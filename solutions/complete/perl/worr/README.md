@@ -18,14 +18,14 @@ still trigger execution of Perl.
 
 I use `Filter::sh` to use `bash` to execute `perl` as a source filter. Writing my
 own filter in pure Perl is trivial, but this is grosser. The filter simply
-translates '()' to '.__o()'. As we'll see, `__o()` returns a string, and we
+translates `()` to `.__o()`. As we'll see, `__o()` returns a string, and we
 use Perl's string concat operator to join the return value of `__o()`
 
-Since my filter doesn't catch 'g()', I use a C preprocessor macro to do that
+Since my filter doesn't catch `g()`, I use a C preprocessor macro to do that
 replacement.
 
 `__o()` is simple, as it calls a different function, `o`, unless it was passed
-an argument. If it was passed an argumen ('al', in our case) it just returns
+an argument. If it was passed an argument (`'al'`, in our case) it just returns
 it.
 
 `o` on the other hand, returns the return value caller, which is a stringified
@@ -34,4 +34,4 @@ case, `o`.
 
 `__g()` is a much simpler function. It grabs the symbol table from the `o`
 package, grabs the second symbol (`__g()` itself), and then does a substring
-into that symbol name ("g") and returns it.
+into that symbol name (`"g"`) and returns it.
