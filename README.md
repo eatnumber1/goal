@@ -30,6 +30,8 @@ and misinterpretation led to its current form.
 If you have a solution that is close, but does not meet these rules, submit it
 anyway. A close and interesting solution is better than no solution.
 
+If you see a solution that breaks any of these rules, file a bug!
+
 ### Previous Solutions
 The more exciting solutions are original, not applying techniques that have
 already been discovered. The following broadly applicable techniques have
