@@ -53,6 +53,7 @@ already been discovered:
 | Common Lisp   | [&bull;][clisp-soln]   |                       |                         |
 | D             | [&bull;][d-soln]       |                       |                         |
 | English       | [&bull;][eng-soln]     |                       |                         |
+| [Finite State Transducer][fst] | [&bull;][fst-soln] |          |                         |
 | Go            | [&bull;][go-soln]      |                       |                         |
 | Groovy        | [&bull;][groovy-soln]  |                       |                         |
 | Haskell       | [&bull;][hs-soln]      |                       |                         |
@@ -91,6 +92,7 @@ These are some of the editor's favorite submissions:
 
  * C [solution][c-ed-pick] by [tolmasky]
  * C++ [solution][c++-ed-pick] by [derrickturk]
+ * Finite State Transducer [solution][fst-ed-pick] by [zippy-white]
  * Haskell [solution][hs-ed-pick] by [capicue] with an [explanation][hs-explain]
  * Nimrod [solution][nim-ed-pick] by [dom96]
  * Perl [solution][perl-ed-pick] by [worr] with an [explanation][perl-explain]
@@ -120,6 +122,7 @@ Thanks!
 [cs-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/c-sharp
 [d-soln]:       https://github.com/eatnumber1/goal/tree/master/solutions/complete/d
 [eng-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/english-spoken
+[fst-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/finite-state-transducer
 [go-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/go
 [groovy-soln]:  https://github.com/eatnumber1/goal/tree/master/solutions/complete/groovy
 [hs-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/haskell
@@ -153,6 +156,7 @@ Thanks!
 [//]: # (Editor's pick URLs)
 [c++-ed-pick]:  https://github.com/eatnumber1/goal/blob/master/solutions/complete/c%2B%2B/derrickturk/goal.cpp
 [c-ed-pick]:    https://github.com/eatnumber1/goal/blob/master/solutions/complete/c/tolmasky/goal.c
+[fst-ed-pick]:  https://github.com/eatnumber1/goal/blob/master/solutions/incomplete/finite-state-transducer/zippy-white
 [hs-ed-pick]:   https://github.com/eatnumber1/goal/blob/master/solutions/complete/haskell/capicue/goal.hs
 [nim-ed-pick]:  https://github.com/eatnumber1/goal/blob/master/solutions/complete/nimrod/dom96/goal.nim
 [perl-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/perl/worr/goal.pl
@@ -173,10 +177,12 @@ Thanks!
 [o11c]:        https://github.com/o11c
 [tolmasky]:    https://github.com/tolmasky
 [worr]:        https://github.com/worr
+[zippy-white]: https://github.com/zippy-white
 
 [//]: # (Other URLs)
 [carbonfive-challenge]: https://github.com/carbonfive/functional-programming-weekly-challenge/tree/master/Week002
 [golf]:                 http://en.wikipedia.org/wiki/Code_golf
+[fst]:                  http://en.wikipedia.org/wiki/Finite_state_transducer
 [rvalue]:               http://en.wikipedia.org/wiki/Value_(computer_science)#lrvalue
 [c-sharp-readme]:       https://github.com/eatnumber1/goal/blob/master/solutions/complete/c-sharp/README.md
 
