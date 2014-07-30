@@ -96,8 +96,7 @@ These are some of the editor's favorite submissions:
 ## Editor's Note
 This got A LOT more popular than I expected. At the moment, there are 37 pull
 requests that I need to look at. Please be patient as it may take me a few days
-to get through them all. I'm prioritizing pull requests for new languages above
-ones for existing languages.
+to get through them all.
 
 It would be super helpful if people wanted to help out by:
 
