@@ -91,6 +91,7 @@ These are some of the editor's favorite submissions:
  * C++ [solution][c++-ed-pick] by [derrickturk]
  * Haskell [solution][hs-ed-pick] by [capicue] with an [explanation][hs-explain]
  * Nimrod [solution][nim-ed-pick] by [dom96]
+ * Perl [solution][perl-ed-pick] by [worr]
  * SH incomplete [solution][sh-ed-pick] by [csandreasen]
  * ZSH [solution][zsh-ed-pick] by [o11c] with an [explanation][zsh-explain]
 
@@ -148,12 +149,13 @@ Thanks!
 [php-non-soln]:  https://github.com/eatnumber1/goal/tree/master/non-solutions/php
 
 [//]: # (Editor's pick URLs)
-[c++-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/c%2B%2B/derrickturk/goal.cpp
-[c-ed-pick]:   https://github.com/eatnumber1/goal/blob/master/solutions/complete/c/tolmasky/goal.c
-[hs-ed-pick]:  https://github.com/eatnumber1/goal/blob/master/solutions/complete/haskell/capicue/goal.hs
-[nim-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/nimrod/dom96/goal.nim
-[sh-ed-pick]:  https://github.com/eatnumber1/goal/blob/master/solutions/incomplete/shell/csandreasen/goal.sh
-[zsh-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/zsh/o11c/goal.zsh
+[c++-ed-pick]:  https://github.com/eatnumber1/goal/blob/master/solutions/complete/c%2B%2B/derrickturk/goal.cpp
+[c-ed-pick]:    https://github.com/eatnumber1/goal/blob/master/solutions/complete/c/tolmasky/goal.c
+[hs-ed-pick]:   https://github.com/eatnumber1/goal/blob/master/solutions/complete/haskell/capicue/goal.hs
+[nim-ed-pick]:  https://github.com/eatnumber1/goal/blob/master/solutions/complete/nimrod/dom96/goal.nim
+[perl-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/perl/worr/goal.pl
+[sh-ed-pick]:   https://github.com/eatnumber1/goal/blob/master/solutions/incomplete/shell/csandreasen/goal.sh
+[zsh-ed-pick]:  https://github.com/eatnumber1/goal/blob/master/solutions/complete/zsh/o11c/goal.zsh
 
 [//]: # (Solution explanation URLs)
 [hs-explain]:  https://github.com/eatnumber1/goal/issues/99
@@ -167,6 +169,7 @@ Thanks!
 [dom96]:       https://github.com/dom96
 [o11c]:        https://github.com/o11c
 [tolmasky]:    https://github.com/tolmasky
+[worr]:        https://github.com/worr
 
 [//]: # (Other URLs)
 [carbonfive-challenge]: https://github.com/carbonfive/functional-programming-weekly-challenge/tree/master/Week002
