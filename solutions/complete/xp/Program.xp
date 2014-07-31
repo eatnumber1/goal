@@ -1,0 +1,12 @@
+import static ImplementationOf::g;
+import static util.cmd.Console::writeLine;
+
+class Program {
+
+  public static void main(string[] $args) {
+    writeLine(g('al'));
+    writeLine(g()('al'));
+    writeLine(g()()('al'));
+    writeLine(g()()()('al'));
+  }
+}
