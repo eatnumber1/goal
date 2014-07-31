@@ -5,10 +5,10 @@
 //non-ES6 solution that's safe to interleave.
 var g=(function k(s){return s?this+s:k.bind(this+'o')}).bind('g')
 
-consolse.log(g('al'))
-consolse.log(g()()()('al'))
+console.log(g('al'))
+console.log(g()()()('al'))
 
 //but also:
 var tmp = g()()
-consolse.log(g()('al')) //goal
-consolse.log(tmp('al'))//gooal
+console.log(g()('al')) //goal
+console.log(tmp('al'))//gooal
