@@ -1,0 +1,14 @@
+class ImplementationOf {
+  static string $o= '';
+
+  public static var g(string? $al= null) {
+    if ($al) {
+      $go= 'g' ~ self::$o;
+      self::$o='';
+      return $go ~ $al;
+    } else {
+      self::$o~= 'o';
+      return ($al= null) -> self::g($al);
+    }
+  }
+}
