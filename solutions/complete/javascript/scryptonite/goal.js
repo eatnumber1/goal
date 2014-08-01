@@ -12,7 +12,7 @@
 //function i(p){return function(x){return x?p+x:i(p+'o')}}g=i('g')                      // vasuman              (64 characters) X X X X X X    - - -
 //g=(function k(s){return s?this+s:k.bind(this+'o')}).bind('g')                         // EamonNerbonne        (61 characters) X X X X X X    X - -
   g=function(l){t=this;t=t.g?"g":t;return l?t+l:g.bind(t+"o")}                          // scryptonite          (60 characters) X X X X X X    X - -
-//s='g',g=function(x){return x?[s+x,s='g'][0]:(s+='o',g)}                               // zemnmez              (55 characters) X X X - X X    - - -
+//s='g',g=function(x){return x?[s+x,s='g'][0]:(s+='o',g)}                               // Zemnmez              (55 characters) X X X - X X    - - -
 
 /**
     g = function(l){
