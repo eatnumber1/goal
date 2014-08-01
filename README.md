@@ -50,6 +50,7 @@ already been discovered:
 | C#            | [&bull;][cs-soln]      |                       |                         |
 | C++           | [&bull;][c++-soln]     |                       |                         |
 | Clojure       | [&bull;][clojure-soln] |                       |                         |
+| Coffeescript  | [&bull;][coffee-soln]  |                       |                         |
 | Common Lisp   | [&bull;][clisp-soln]   |                       |                         |
 | D             | [&bull;][d-soln]       |                       |                         |
 | Dart          | [&bull;][dart-soln]    |                       |                         |
@@ -122,6 +123,7 @@ Thanks!
 [c-soln]:       https://github.com/eatnumber1/goal/tree/master/solutions/complete/c
 [clisp-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/common-lisp
 [clojure-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/clojure
+[coffee-soln]:  https://github.com/eatnumber1/goal/tree/master/solutions/complete/coffeescript
 [cs-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/c-sharp
 [d-soln]:       https://github.com/eatnumber1/goal/tree/master/solutions/complete/d
 [dart-soln]:    https://github.com/eatnumber1/goal/tree/master/solutions/complete/dart
