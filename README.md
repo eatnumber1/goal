@@ -61,6 +61,7 @@ already been discovered:
 | JavaScript    | [&bull;][js-soln]      |                       |                         |
 | Julia         | [&bull;][jl-soln]      |                       |                         |
 | Lua           | [&bull;][lua-soln]     |                       |                         |
+| Mathematica   |                        | [&bull;][math-soln]   |                         |
 | Nimrod        | [&bull;][nim-soln]     |                       |                         |
 | OCaml         | [&bull;][ocaml-soln]   |                       |                         |
 | Objective-J   | [&bull;][obj-j-soln]   |                       |                         |
@@ -129,6 +130,7 @@ Thanks!
 [jl-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/julia
 [js-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript
 [lua-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/lua
+[math-soln]:    https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/mathematica
 [nim-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/nimrod
 [obj-j-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/objective-j
 [ocaml-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/ocaml
