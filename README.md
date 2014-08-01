@@ -45,6 +45,7 @@ already been discovered:
 
 |               | Solved                 | Incomplete            | Improbable              |
 |:-------------:|:----------------------:|:---------------------:|:-----------------------:|
+| Befunge       | [&bull;][befunge-soln] |                       |                         |
 | Brainfuck     |                        | [&bull;][bf-soln]     |                         |
 | C             | [&bull;][c-soln]       |                       |                         |
 | C#            | [&bull;][cs-soln]      |                       |                         |
@@ -95,6 +96,7 @@ you!
 ## Editor's Picks
 These are some of the editor's favorite submissions:
 
+ * Befunge [solution][befunge-ed-pick] by [arcovion]
  * C [solution][c-ed-pick] by [tolmasky]
  * C++ [solution][c++-ed-pick] by [derrickturk]
  * Finite State Transducer [solution][fst-ed-pick] by [zippy-white]
@@ -119,6 +121,7 @@ Just leave a comment on the pull request with your findings and I'll see it.
 Thanks!
 
 [//]: # (Solution URLs)
+[befunge-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/befunge-93
 [bf-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/brainfuck
 [c++-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/c++
 [c-soln]:       https://github.com/eatnumber1/goal/tree/master/solutions/complete/c
@@ -164,14 +167,15 @@ Thanks!
 [php-non-soln]:  https://github.com/eatnumber1/goal/tree/master/non-solutions/php
 
 [//]: # (Editor's pick URLs)
-[c++-ed-pick]:  https://github.com/eatnumber1/goal/blob/master/solutions/complete/c%2B%2B/derrickturk/goal.cpp
-[c-ed-pick]:    https://github.com/eatnumber1/goal/blob/master/solutions/complete/c/tolmasky/goal.c
-[fst-ed-pick]:  https://github.com/eatnumber1/goal/blob/master/solutions/incomplete/finite-state-transducer/zippy-white
-[hs-ed-pick]:   https://github.com/eatnumber1/goal/blob/master/solutions/complete/haskell/capicue/goal.hs
-[nim-ed-pick]:  https://github.com/eatnumber1/goal/blob/master/solutions/complete/nimrod/dom96/goal.nim
-[perl-ed-pick]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/perl/worr/goal.pl
-[sh-ed-pick]:   https://github.com/eatnumber1/goal/blob/master/solutions/incomplete/shell/csandreasen/goal.sh
-[zsh-ed-pick]:  https://github.com/eatnumber1/goal/blob/master/solutions/complete/zsh/o11c/goal.zsh
+[befunge-ed-pick]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/befunge-93/Arcovion/goal.bf
+[c++-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solutions/complete/c%2B%2B/derrickturk/goal.cpp
+[c-ed-pick]:       https://github.com/eatnumber1/goal/blob/master/solutions/complete/c/tolmasky/goal.c
+[fst-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solutions/incomplete/finite-state-transducer/zippy-white
+[hs-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/solutions/complete/haskell/capicue/goal.hs
+[nim-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solutions/complete/nimrod/dom96/goal.nim
+[perl-ed-pick]:    https://github.com/eatnumber1/goal/blob/master/solutions/complete/perl/worr/goal.pl
+[sh-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/solutions/incomplete/shell/csandreasen/goal.sh
+[zsh-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solutions/complete/zsh/o11c/goal.zsh
 
 [//]: # (Solution explanation URLs)
 [hs-explain]:   https://github.com/eatnumber1/goal/issues/99
@@ -180,6 +184,7 @@ Thanks!
 
 [//]: # (User URLs)
 [acruikshank]: https://github.com/acruikshank
+[arcovion]:    https://github.com/Arcovion
 [capicue]:     https://github.com/capicue
 [csandreasen]: https://github.com/csandreasen
 [derrickturk]: https://github.com/derrickturk
