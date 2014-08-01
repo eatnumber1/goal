@@ -10,7 +10,7 @@
 //g=(function _(x){return function(y){return y?(x+y):_(x+'o')}})('g')                   // chrisbouchard        (67 characters) X X X X X X    - - -
 //function g(l){return l?"g"+Array(-~g.o).join("o")+l:(g.o=-~g.o,g)}                    // jed                  (66 characters) X X - - - -    - X -
 //function i(p){return function(x){return x?p+x:i(p+'o')}}g=i('g')                      // vasuman              (64 characters) X X X X X X    - - -
-//g=(function k(s){return s?this+s:k.bind(this+'o')}).bind('g')                         // soln7                (61 characters) X X X X X X    X - -
+//g=(function k(s){return s?this+s:k.bind(this+'o')}).bind('g')                         // EamonNerbonne        (61 characters) X X X X X X    X - -
   g=function(l){t=this;t=t.g?"g":t;return l?t+l:g.bind(t+"o")}                          // scryptonite          (60 characters) X X X X X X    X - -
 //s='g',g=function(x){return x?[s+x,s='g'][0]:(s+='o',g)}                               // zemnmez              (55 characters) X X X - X X    - - -
 
