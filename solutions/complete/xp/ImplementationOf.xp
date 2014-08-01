@@ -8,7 +8,7 @@ class ImplementationOf {
       return $go ~ $al;
     } else {
       self::$o~= 'o';
-      return ($al= null) -> self::g($al);
+      return (string? $al= null) -> self::g($al);
     }
   }
 }
