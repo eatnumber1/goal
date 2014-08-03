@@ -14,12 +14,12 @@ function width(str, l){
 }
 
 console.log("");
-console.log("%s %s    gal", width("    g('al') == 'gal'", 82).grey, width(13));
-console.log("%s %s   /  goal", width("    g()('al') == 'goal'", 82).grey, width(13));
-console.log("%s %s  |  /  gooal", width("    var goo = g()(); goo('al') == 'gooal' ", 82).grey, width(13));
-console.log("%s %s  | |  /  goooal ", width("    goo()('al') == 'goooal' ", 82).grey, width(13));
-console.log("%s %s  | | |  /  golf", width("    g()('lf') == 'golf' ", 82).grey, width(13));
-console.log("%s %s  | | | |  / ", width(82), width(13));
+console.log("%s %s    gal", width("    g('al') == 'gal'", 82).grey, width(14));
+console.log("%s %s   /  goal", width("    g()('al') == 'goal'", 82).grey, width(14));
+console.log("%s %s  |  /  gooal", width("    var goo = g()(); goo('al') == 'gooal' ", 82).grey, width(14));
+console.log("%s %s  | |  /  goooal ", width("    goo()('al') == 'goooal' ", 82).grey, width(14));
+console.log("%s %s  | | |  /  golf", width("    g()('lf') == 'golf' ", 82).grey, width(14));
+console.log("%s %s  | | | |  / ", width(82), width(14));
 
 var dirs = fs.readdirSync(__dirname); // get solutions
 dirs.filter(function(dir){ // filter for golf solutions
@@ -49,7 +49,7 @@ dirs.filter(function(dir){ // filter for golf solutions
 	return a_len > b_len ? -1 : 1;
 }).forEach(function(sol){ // test golf solutions
 	var src = width(sol.src, 82);
-	var name = width(sol.name, 13).grey;
+	var name = width(sol.name, 14).grey;
 	if(sol.type > 0.0 && sol.type < 5.1) src = src.bold;
 	if(sol.type > 5.1) src = src.grey;
 	if(sol.type === null) src = src.red;
@@ -64,17 +64,20 @@ dirs.filter(function(dir){ // filter for golf solutions
 		_goooal =
 		_golf = unknown;
 
-	try {
-		eval(sol.type === null ? "g=null" : sol.src);
-		if(!g) throw new Error("g() does not exist!");
-		_gal = g("al") == "gal" ? success : failure;
-		_goal = g()("al") == "goal" ? success : failure;
-		_goo = g()();
-		_gooal = _goo("al") == "gooal" ? success : failure;
-		_goooal = _goo()("al") == "goooal" ? success : failure;
-		_golf = g()("lf") == "golf" ? success : failure;
-	} catch(e){
-		console.log("[ERROR] %s".red, e.message);
+	if(sol.type <= 5.1){
+		try {
+			g = null;
+			if(sol.type !== null) eval(sol.src);
+			if(!g) throw new Error("g() does not exist!");
+			_gal = g("al") == "gal" ? success : failure;
+			_goal = g()("al") == "goal" ? success : failure;
+			_goo = g()();
+			_gooal = _goo("al") == "gooal" ? success : failure;
+			_goooal = _goo()("al") == "goooal" ? success : failure;
+			_golf = g()("lf") == "golf" ? success : failure;
+		} catch(e){
+			console.log("[ERROR] %s".red, e.message);
+		}
 	}
 	console.log("%s %s  %s %s %s %s %s  %s chars", name, src,
 		_gal, _goal,_gooal, _goooal, _golf,
