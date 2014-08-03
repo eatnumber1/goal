@@ -14,12 +14,12 @@ function width(str, l){
 }
 
 console.log("");
-console.log("%s %s  gal", width("    g('al') == 'gal'", 82).grey, width(13));
-console.log("%s %s    goal", width("    g()('al') == 'goal'", 82).grey, width(13));
-console.log("%s %s  |   gooal", width("    var goo = g()(); goo('al') == 'gooal' ", 82).grey, width(13));
-console.log("%s %s  | |   goooal ", width("    goo()('al') == 'goooal' ", 82).grey, width(13));
-console.log("%s %s  | | |   golf", width("    g()('lf') == 'golf' ", 82).grey, width(13));
-console.log("%s %s  | | | |  ", width(82), width(13));
+console.log("%s %s    gal", width("    g('al') == 'gal'", 82).grey, width(13));
+console.log("%s %s   /  goal", width("    g()('al') == 'goal'", 82).grey, width(13));
+console.log("%s %s  |  /  gooal", width("    var goo = g()(); goo('al') == 'gooal' ", 82).grey, width(13));
+console.log("%s %s  | |  /  goooal ", width("    goo()('al') == 'goooal' ", 82).grey, width(13));
+console.log("%s %s  | | |  /  golf", width("    g()('lf') == 'golf' ", 82).grey, width(13));
+console.log("%s %s  | | | |  / ", width(82), width(13));
 
 var dirs = fs.readdirSync(__dirname); // get solutions
 dirs.filter(function(dir){ // filter for golf solutions
