@@ -1,18 +1,5 @@
-
-//                                                                                                                                             Uses bind
-//  <https://github.com/eatnumber1/goal> JavaScript g()()("al") code golfing.                                                     1   4   1024 | Uses join
-//  Some of the entries have had some excess characters trimmed from their original.                                            0 | 3 | 26|    | | Uses call
-//                                                                                                                              | | | | | |    | | |
-//function g(a){function o(a){return a?this+a:o.bind(this+'o')}return o.call('g',a)}    // inmatarian           (82 characters) X X X X X X    X - X
-//function g(l){return l?"g"+Array([-~g.o,g.o=0][0]).join("o")+l:(g.o=-~g.o,g)}         // devongovett          (77 characters) X X X - X X    - X -
-//function g(a,o){return a?'g'+(o||'')+a:function(a){return g(a,(o||'')+'o')}}          // panzi                (76 characters) X X X X X X    - - -
-//g=(function g(o,a){return a?'g'+o+a:g.bind(void 0,o+'o')}).bind(void 0,'')            // mrmilosz             (74 characters) X X X X X X    X - -
-//g=(function _(x){return function(y){return y?(x+y):_(x+'o')}})('g')                   // chrisbouchard        (67 characters) X X X X X X    - - -
-//function g(l){return l?"g"+Array(-~g.o).join("o")+l:(g.o=-~g.o,g)}                    // jed                  (66 characters) X X - - - -    - X -
-//function i(p){return function(x){return x?p+x:i(p+'o')}}g=i('g')                      // vasuman              (64 characters) X X X X X X    - - -
-//g=(function k(s){return s?this+s:k.bind(this+'o')}).bind('g')                         // EamonNerbonne        (61 characters) X X X X X X    X - -
-  g=function(l){t=this;t=t.g?"g":t;return l?t+l:g.bind(t+"o")}                          // scryptonite          (60 characters) X X X X X X    X - -
-//s='g',g=function(x){return x?[s+x,s='g'][0]:(s+='o',g)}                               // Zemnmez              (55 characters) X X X - X X    - - -
+//  <https://github.com/eatnumber1/goal> JavaScript g()()("al") code golfing.
+g=function(l){t=this;t=t.g?"g":t;return l?t+l:g.bind(t+"o")}
 
 /**
     g = function(l){
