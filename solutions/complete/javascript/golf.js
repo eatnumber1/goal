@@ -50,7 +50,7 @@ dirs.filter(function(dir){ // filter for golf solutions
 }).forEach(function(sol){ // test golf solutions
 	var src = width(sol.src, 82);
 	var name = width(sol.name, 13).grey;
-	if(sol.type > 0.0 && sol.type < 5.0) src = src.bold;
+	if(sol.type > 0.0 && sol.type < 5.1) src = src.bold;
 	if(sol.type > 5.1) src = src.grey;
 	if(sol.type === null) src = src.red;
 
@@ -76,7 +76,7 @@ dirs.filter(function(dir){ // filter for golf solutions
 	} catch(e){
 		console.log("[ERROR] %s".red, e.message);
 	}
-	console.log("%s %s  %s %s %s %s %s  %s", name, src,
+	console.log("%s %s  %s %s %s %s %s  %s chars", name, src,
 		_gal, _goal,_gooal, _goooal, _golf,
 		sol.type === null ? "-".grey : sol.src.length);
 });
