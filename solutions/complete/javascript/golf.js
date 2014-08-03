@@ -2,8 +2,6 @@
 var fs = require("fs");
 var colors = require("colors");
 
-console.log("");
-
 function width(str, l){
 	if(typeof str == "number"){
 		l = str;
@@ -15,52 +13,70 @@ function width(str, l){
 	return str;
 }
 
-console.log("%s %s gal", width("    g('al') == 'gal'", 82).grey, width(13));
-console.log("%s %s   goal", width("    g()('al') == 'goal'", 82).grey, width(13));
-console.log("%s %s |   gooal", width("    var goo = g()(); goo('al') == 'gooal' ", 82).grey, width(13));
-console.log("%s %s | |   goooal ", width("    goo()('al') == 'goooal' ", 82).grey, width(13));
-console.log("%s %s | | |   golf", width("    g()('lf') == 'golf' ", 82).grey, width(13));
-console.log("%s %s | | | |  ", width(82), width(13));
+console.log("");
+console.log("%s %s  gal", width("    g('al') == 'gal'", 82).grey, width(13));
+console.log("%s %s    goal", width("    g()('al') == 'goal'", 82).grey, width(13));
+console.log("%s %s  |   gooal", width("    var goo = g()(); goo('al') == 'gooal' ", 82).grey, width(13));
+console.log("%s %s  | |   goooal ", width("    goo()('al') == 'goooal' ", 82).grey, width(13));
+console.log("%s %s  | | |   golf", width("    g()('lf') == 'golf' ", 82).grey, width(13));
+console.log("%s %s  | | | |  ", width(82), width(13));
 
-var dirs = fs.readdirSync(__dirname);
-dirs.filter(function(dir){
+var dirs = fs.readdirSync(__dirname); // get solutions
+dirs.filter(function(dir){ // filter for golf solutions
 	var stat = fs.statSync(__dirname + "/" + dir);
 	return stat.isDirectory() && fs.existsSync(__dirname + "/" + dir + "/golf.js");	
-}).forEach(function(dir){
-	var sol = require(__dirname + "/" + dir + "/golf.js");
-	var _gal = "-",
-		_goal = "-",
-		_gooal = "-",
-		_goooal = "-",
-		_golf = "-";
-		_goo = null;
-	var err = false;
+}).map(function(dir){
+	var sol;
 	try {
-		// No bother eval()'ing; Node doesn't support ES6's arrow functions
-		if(sol.type <= 5.1) eval(sol.src);
-	} catch(e){
-		err = true;
+		sol = require(__dirname + "/" + dir + "/golf.js");
+		if(!sol.src) throw new Error("Was not a valid golf solution.");
+		sol.name = sol.name || dir;
+		sol.path = __dirname + "/" + dir + "/golf.js";
+	} catch(e) {
+		sol = {
+			"name": dir,
+			"type": null,
+			"src": "[ERR] " + e.message,
+			"path": __dirname + "/" + dir + "/golf.js"
+		};
 	}
-	try {
-		if(!err && g) _gal = g("al") == "gal" ? "\u2713".green : "\u00D7".red;
-		if(!err && g) _goal = g()("al") == "goal" ? "\u2713".green : "\u00D7".red;
-		if(!err && g){
-			_goo = g()();
-			_gooal = _goo("al") == "gooal" ? "\u2713".green : "\u00D7".red;
-		}
-		if(!err && g) _goooal = _goo()("al") == "goooal" ? "\u2713".green : "\u00D7".red;
-		if(!err && g) _golf = g()("lf") == "golf" ? "\u2713".green : "\u00D7".red;
-	} catch(e){
-		console.log(e);
-	}
+	return sol;
+}).sort(function(a, b){
+	var a_len = a.src.length;
+	var b_len = b.src.length;
+	if(a.type == null) a_len = Infinity;
+	if(b.type == null) b_len = Infinity;
+	return a_len > b_len ? -1 : 1;
+}).forEach(function(sol){ // test golf solutions
 	var src = width(sol.src, 82);
+	var name = width(sol.name, 13).grey;
+	if(sol.type > 0.0 && sol.type < 5.0) src = src.bold;
 	if(sol.type > 5.1) src = src.grey;
-	if(sol.type < 5.1) src = src.bold;
-	console.log("%s %s %s %s %s %s %s  %s chars", width(sol.name || dir, 13).grey, src,
-		_gal,
-		_goal,
-		_gooal,
-		_goooal,
-		_golf,
-		sol.src.length);
+	if(sol.type === null) src = src.red;
+
+	var success = "\u2713".green;
+	var failure = "\u00D7".red;
+	var unknown = "-".grey;
+
+	var _gal =
+		_goal = 
+		_gooal =
+		_goooal =
+		_golf = unknown;
+
+	try {
+		eval(sol.type === null ? "g=null" : sol.src);
+		if(!g) throw new Error("g() does not exist!");
+		_gal = g("al") == "gal" ? success : failure;
+		_goal = g()("al") == "goal" ? success : failure;
+		_goo = g()();
+		_gooal = _goo("al") == "gooal" ? success : failure;
+		_goooal = _goo()("al") == "goooal" ? success : failure;
+		_golf = g()("lf") == "golf" ? success : failure;
+	} catch(e){
+		console.log("[ERROR] %s".red, e.message);
+	}
+	console.log("%s %s  %s %s %s %s %s  %s", name, src,
+		_gal, _goal,_gooal, _goooal, _golf,
+		sol.type === null ? "-".grey : sol.src.length);
 });
