@@ -1,3 +1,4 @@
+// $ node golf.js
 var fs = require("fs");
 
 console.log("");
@@ -36,6 +37,7 @@ dirs.forEach(function(dir){
 				_goo = null;
 			var err = false;
 			try {
+				// No bother eval()'ing; Node doesn't support ES6's arrow functions
 				if(golf.type <= 5.1) eval(golf.src);
 			} catch(e){
 				err = true;
@@ -52,7 +54,7 @@ dirs.forEach(function(dir){
 			} catch(e){
 				console.log(e);
 			}
-			console.log("%s %s %s %s %s %s %s    %s", width(golf.name || dir, 14), width(golf.src, 82),
+			console.log("%s %s %s %s %s %s %s  %s chars", width(golf.name || dir, 14), width(golf.src, 82),
 				_gal,
 				_goal,
 				_gooal,
