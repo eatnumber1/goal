@@ -1,2 +1,2 @@
- * [Original](seanmcgary)
+ * [Original](jed)
  * [Shortest](EamonNerbonne)
