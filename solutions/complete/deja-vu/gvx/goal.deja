@@ -1,0 +1,11 @@
+set :() :()
+func g:
+    "g"
+    while = () swap:
+        concat( rot "o" )
+    concat(
+
+!print g ("al")
+!print g () ("al")
+!print g () () ("al")
+!print g () () () () () ("al")

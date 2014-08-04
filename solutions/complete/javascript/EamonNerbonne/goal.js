@@ -4,6 +4,8 @@
 // and g may be called multiple times.
 var m=p=>s=>s?p+s:m(p+'o'),g=m('g')
 
+//"var" is necessary (only) in strict mode.
+
 console.log(g('al'))//gal
 var tmp = g()()
 console.log(g()('al'))//goal

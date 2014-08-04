@@ -1,1 +1,1 @@
-q="g",g=function(x){return x?q+="al":(q+="o",arguments.callee)}
+s='g',g=function(x){return x?[s+x,s='g'][0]:(s+='o',g)}

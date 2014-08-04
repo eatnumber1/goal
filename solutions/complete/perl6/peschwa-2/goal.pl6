@@ -23,7 +23,7 @@ role g-role {
 }
 
 my $g = '' does g-role;
+sub g { return $g(@_); }
 
-print $g('al');
-print $g()()()('al');
-#     ^- this sigil makes this incomplete.
+print g('al');
+print g()()()('al');
