@@ -55,6 +55,7 @@ already been discovered:
 | Common Lisp   | [&bull;][clisp-soln]   |                       |                         |
 | D             | [&bull;][d-soln]       |                       |                         |
 | Dart          | [&bull;][dart-soln]    |                       |                         |
+| Emacs Lisp    | [&bull;][elisp-soln]   |                       |                         |
 | English       | [&bull;][eng-soln]     |                       |                         |
 | [Finite State Transducer][fst] | [&bull;][fst-soln] |          |                         |
 | Go            | [&bull;][go-soln]      |                       |                         |
@@ -134,6 +135,7 @@ Thanks!
 [cs-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/c-sharp
 [d-soln]:       https://github.com/eatnumber1/goal/tree/master/solutions/complete/d
 [dart-soln]:    https://github.com/eatnumber1/goal/tree/master/solutions/complete/dart
+[elisp-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/emacs-lisp
 [eng-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/english-spoken
 [fst-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/finite-state-transducer
 [go-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/go
