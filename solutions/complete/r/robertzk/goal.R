@@ -4,7 +4,7 @@ g <- function(x) {
   else {
     base <- function(z) if (is.call(z)) Recall(z[[1]]) else deparse(z)
     depth <- function(z) if (is.call(z)) 1 + Recall(z[[1]]) else 0
-    os <- depth(Find(function(y) base(y) == 'g', sys.calls())) - 1
+    os <- depth(Find(function(y) base(y) == 'g', rev(sys.calls()))) - 1
     paste0(c('g', rep('o', os), x), collapse = '')
   }
 }
