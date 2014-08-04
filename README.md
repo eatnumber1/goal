@@ -149,8 +149,8 @@ Thanks!
 [perl6-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/perl6
 [py-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/python
 [r-soln]:       https://github.com/eatnumber1/goal/tree/master/solutions/complete/r
-[regexp-soln]:  https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/regexp
 [rb-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/ruby
+[regexp-soln]:  https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/regexp
 [scala-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/scala
 [scm-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/scheme
 [sed-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/sed
@@ -199,10 +199,10 @@ Thanks!
 [zippy-white]: https://github.com/zippy-white
 
 [//]: # (Other URLs)
-[carbonfive-challenge]: https://github.com/carbonfive/functional-programming-weekly-challenge/tree/master/Week002
-[golf]:                 http://en.wikipedia.org/wiki/Code_golf
-[fst]:                  http://en.wikipedia.org/wiki/Finite_state_transducer
-[rvalue]:               http://en.wikipedia.org/wiki/Value_(computer_science)#lrvalue
 [c-sharp-readme]:       https://github.com/eatnumber1/goal/blob/master/solutions/complete/c-sharp/README.md
+[carbonfive-challenge]: https://github.com/carbonfive/functional-programming-weekly-challenge/tree/master/Week002
+[fst]:                  http://en.wikipedia.org/wiki/Finite_state_transducer
+[golf]:                 http://en.wikipedia.org/wiki/Code_golf
+[rvalue]:               http://en.wikipedia.org/wiki/Value_(computer_science)#lrvalue
 
 [//]: # ( vim: set et ts=4 sw=4 sts=4 tw=80: )
