@@ -99,6 +99,7 @@ These are some of the editor's favorite submissions:
  * Befunge [solution][befunge-ed-pick] by [arcovion]
  * C [solution][c-ed-pick] by [tolmasky]
  * C++ [solution][c++-ed-pick] by [derrickturk]
+ * C# [solution][cs-ed-pick] by [scorpiona] with an [explanation][cs-explain]
  * Finite State Transducer [solution][fst-ed-pick] by [zippy-white]
  * Haskell [solution][hs-ed-pick] by [capicue] with an [explanation][hs-explain]
  * Nimrod [solution][nim-ed-pick] by [dom96]
@@ -170,6 +171,7 @@ Thanks!
 [befunge-ed-pick]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/befunge-93/Arcovion/goal.bf
 [c++-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solutions/complete/c%2B%2B/derrickturk/goal.cpp
 [c-ed-pick]:       https://github.com/eatnumber1/goal/blob/master/solutions/complete/c/tolmasky/goal.c
+[cs-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/solutions/complete/c-sharp/scorpiona/Program.cs
 [fst-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solutions/incomplete/finite-state-transducer/zippy-white
 [hs-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/solutions/complete/haskell/capicue/goal.hs
 [nim-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solutions/complete/nimrod/dom96/goal.nim
@@ -178,6 +180,7 @@ Thanks!
 [zsh-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solutions/complete/zsh/o11c/goal.zsh
 
 [//]: # (Solution explanation URLs)
+[cs-explain]:   https://github.com/eatnumber1/goal/blob/master/solutions/complete/c-sharp/scorpiona/README.md
 [hs-explain]:   https://github.com/eatnumber1/goal/issues/99
 [zsh-explain]:  https://github.com/eatnumber1/goal/pull/69#issuecomment-50285290
 [perl-explain]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/perl/worr/README.md
@@ -190,6 +193,7 @@ Thanks!
 [derrickturk]: https://github.com/derrickturk
 [dom96]:       https://github.com/dom96
 [o11c]:        https://github.com/o11c
+[scorpiona]:   https://github.com/scorpiona
 [tolmasky]:    https://github.com/tolmasky
 [worr]:        https://github.com/worr
 [zippy-white]: https://github.com/zippy-white
