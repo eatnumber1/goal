@@ -84,6 +84,7 @@ already been discovered:
 | Sed           | [&bull;][sed-soln]     |                       |                         |
 | Shell         |                        | [&bull;][sh-soln]     |                         |
 | TCL           | [&bull;][tcl-soln]     |                       |                         |
+| [XP][xp-lang] | [&bull;][xp-soln]      |                       |                         |
 | ZSH           | [&bull;][zsh-soln]     |                       |                         |
 
 Help out, add some more languages!
@@ -162,6 +163,7 @@ Thanks!
 [sed-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/sed
 [sh-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/shell
 [tcl-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/tcl
+[xp-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/xp
 [zsh-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/zsh
 
 [//]: # (Bad solution URLs)
@@ -210,5 +212,6 @@ Thanks!
 [fst]:                  http://en.wikipedia.org/wiki/Finite_state_transducer
 [golf]:                 http://en.wikipedia.org/wiki/Code_golf
 [rvalue]:               http://en.wikipedia.org/wiki/Value_(computer_science)#lrvalue
+[xp-lang]:              http://xp-lang.net
 
 [//]: # ( vim: set et ts=4 sw=4 sts=4 tw=80: )
