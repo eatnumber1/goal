@@ -75,7 +75,7 @@ already been discovered:
 | Python        | [&bull;][py-soln]      |                       |                         |
 | R             | [&bull;][r-soln]       |                       |                         |
 | Regexp        |                        | [&bull;][regexp-soln] |                         |
-| Ruby          | [&bull;][rb-soln]      |                       |                         |
+| Ruby          |                        | [&bull;][rb-soln]     |                         |
 | Scala         | [&bull;][scala-soln]   |                       |                         |
 | Scheme        | [&bull;][scm-soln]     |                       |                         |
 | Sed           | [&bull;][sed-soln]     |                       |                         |
@@ -149,7 +149,7 @@ Thanks!
 [py-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/python
 [r-soln]:       https://github.com/eatnumber1/goal/tree/master/solutions/complete/r
 [regexp-soln]:  https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/regexp
-[rb-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/ruby
+[rb-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/ruby
 [scala-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/scala
 [scm-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/scheme
 [sed-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/sed
