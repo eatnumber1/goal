@@ -69,6 +69,7 @@ already been discovered:
 | Mathematica   |                        | [&bull;][math-soln]   |                         |
 | Nimrod        | [&bull;][nim-soln]     |                       |                         |
 | OCaml         | [&bull;][ocaml-soln]   |                       |                         |
+| GNU Octave    | [&bull;][octave-soln]  |                       |                         |
 | Objective-J   | [&bull;][obj-j-soln]   |                       |                         |
 | PHP           |                        |                       | [&bull;][php-non-soln]  |
 | Perl          | [&bull;][perl-soln]    |                       |                         |
@@ -147,6 +148,7 @@ Thanks!
 [nim-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/nimrod
 [obj-j-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/objective-j
 [ocaml-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/ocaml
+[octave-soln]:  https://github.com/eatnumber1/goal/tree/master/solutions/complete/octave
 [perl-soln]:    https://github.com/eatnumber1/goal/tree/master/solutions/complete/perl
 [perl6-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/perl6
 [py-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/python
