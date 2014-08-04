@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Runtime.InteropServices;
-using System.Reflection;
-
 namespace goal
 {
     class Program
@@ -14,12 +10,9 @@ namespace goal
             GCHandle? handle = null;
             try
             {
-                var str = string.Intern(EnumerateInternedStrings(Assembly.GetExecutingAssembly()).Single(a => a == "al"));
-
-                handle = GCHandle.Alloc(str, GCHandleType.Pinned);
+                handle = GCHandle.Alloc("al", GCHandleType.Pinned);
                 var pStr = handle.Value.AddrOfPinnedObject();
-                var alsh = Marshal.ReadInt32(pStr);
-                Marshal.WriteInt32(pStr, alsh + 0x3000E);
+                Marshal.WriteInt32(pStr, Marshal.ReadInt32(pStr) + 0x3000E);
             }
             finally
             {
@@ -49,12 +42,6 @@ namespace goal
                 str = str.Insert(1, a.Substring(1));
 
             return str;
-        }
-
-        static IEnumerable<string> EnumerateInternedStrings(Assembly assembly)
-        {
-            var metaDataReader = new MetaDataReader(assembly.Location);
-            return metaDataReader.EnumerateUserStrings().Where(x => string.IsInterned(x) != null);
         }
     }
 }
