@@ -57,6 +57,7 @@ already been discovered:
 | Dart          | [&bull;][dart-soln]    |                       |                         |
 | Emacs Lisp    | [&bull;][elisp-soln]   |                       |                         |
 | English       | [&bull;][eng-soln]     |                       |                         |
+| Forth         | [&bull;][fs-soln]      |                       |                         |
 | [Finite State Transducer][fst] | [&bull;][fst-soln] |          |                         |
 | Go            | [&bull;][go-soln]      |                       |                         |
 | Groovy        | [&bull;][groovy-soln]  |                       |                         |
@@ -138,6 +139,7 @@ Thanks!
 [dart-soln]:    https://github.com/eatnumber1/goal/tree/master/solutions/complete/dart
 [elisp-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/emacs-lisp
 [eng-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/english-spoken
+[fs-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/forth
 [fst-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/finite-state-transducer
 [go-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/go
 [groovy-soln]:  https://github.com/eatnumber1/goal/tree/master/solutions/complete/groovy
