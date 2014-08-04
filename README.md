@@ -60,6 +60,7 @@ already been discovered:
 | Go            | [&bull;][go-soln]      |                       |                         |
 | Groovy        | [&bull;][groovy-soln]  |                       |                         |
 | Haskell       | [&bull;][hs-soln]      |                       |                         |
+| Haxe          | [&bull;][hx-soln]      |                       |                         |
 | IO            | [&bull;][io-soln]      |                       |                         |
 | Java          |                        |                       | [&bull;][java-non-soln] |
 | JavaScript    | [&bull;][js-soln]      |                       |                         |
@@ -137,6 +138,7 @@ Thanks!
 [go-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/go
 [groovy-soln]:  https://github.com/eatnumber1/goal/tree/master/solutions/complete/groovy
 [hs-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/haskell
+[hx-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/haxe
 [io-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/io
 [jl-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/julia
 [js-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript
