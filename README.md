@@ -57,8 +57,9 @@ already been discovered:
 | Dart          | [&bull;][dart-soln]    |                       |
 | Emacs Lisp    | [&bull;][elisp-soln]   |                       |
 | English       | [&bull;][eng-soln]     |                       |
-| Forth         | [&bull;][fs-soln]      |                       |
 | [Finite State Transducer][fst] | [&bull;][fst-soln] |          |
+| Forth         | [&bull;][fs-soln]      |                       |
+| GNU Octave    | [&bull;][octave-soln]  |                       |
 | Go            | [&bull;][go-soln]      |                       |
 | Groovy        | [&bull;][groovy-soln]  |                       |
 | Haskell       | [&bull;][hs-soln]      |                       |
@@ -71,7 +72,6 @@ already been discovered:
 | Mathematica   |                        | [&bull;][math-soln]   |
 | Nimrod        | [&bull;][nim-soln]     |                       |
 | OCaml         | [&bull;][ocaml-soln]   |                       |
-| GNU Octave    | [&bull;][octave-soln]  |                       |
 | Objective-J   | [&bull;][obj-j-soln]   |                       |
 | PHP           |                        | [&bull;][php-soln]    |
 | Perl          | [&bull;][perl-soln]    |                       |
