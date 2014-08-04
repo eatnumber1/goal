@@ -112,20 +112,6 @@ These are some of the editor's favorite submissions:
  * SH incomplete [solution][sh-ed-pick] by [csandreasen]
  * ZSH [solution][zsh-ed-pick] by [o11c] with an [explanation][zsh-explain]
 
-## Editor's Note
-This got A LOT more popular than I expected. At the moment, there are 37 pull
-requests that I need to look at. Please be patient as it may take me a few days
-to get through them all.
-
-It would be super helpful if people wanted to help out by:
-
-1. Running other's submissions and confirming that they work correctly.
-3. Checking that they follow all the rules.
-4. Calling out particularly clever solutions.
-
-Just leave a comment on the pull request with your findings and I'll see it.
-Thanks!
-
 [//]: # (Solution URLs)
 [befunge-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/befunge-93
 [bf-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/brainfuck
