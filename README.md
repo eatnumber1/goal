@@ -43,50 +43,50 @@ already been discovered:
 
 ## Languages
 
-|               | Solved                 | Incomplete            | Improbable              |
-|:-------------:|:----------------------:|:---------------------:|:-----------------------:|
-| Befunge       | [&bull;][befunge-soln] |                       |                         |
-| Brainfuck     |                        | [&bull;][bf-soln]     |                         |
-| C             | [&bull;][c-soln]       |                       |                         |
-| C#            | [&bull;][cs-soln]      |                       |                         |
-| C++           | [&bull;][c++-soln]     |                       |                         |
-| Clojure       | [&bull;][clojure-soln] |                       |                         |
-| Coffeescript  | [&bull;][coffee-soln]  |                       |                         |
-| Common Lisp   | [&bull;][clisp-soln]   |                       |                         |
-| D             | [&bull;][d-soln]       |                       |                         |
-| Dart          | [&bull;][dart-soln]    |                       |                         |
-| Emacs Lisp    | [&bull;][elisp-soln]   |                       |                         |
-| English       | [&bull;][eng-soln]     |                       |                         |
-| Forth         | [&bull;][fs-soln]      |                       |                         |
-| [Finite State Transducer][fst] | [&bull;][fst-soln] |          |                         |
-| Go            | [&bull;][go-soln]      |                       |                         |
-| Groovy        | [&bull;][groovy-soln]  |                       |                         |
-| Haskell       | [&bull;][hs-soln]      |                       |                         |
-| Haxe          | [&bull;][hx-soln]      |                       |                         |
-| IO            | [&bull;][io-soln]      |                       |                         |
-| Java          |                        |                       | [&bull;][java-non-soln] |
-| JavaScript    | [&bull;][js-soln]      |                       |                         |
-| Julia         | [&bull;][jl-soln]      |                       |                         |
-| Lua           | [&bull;][lua-soln]     |                       |                         |
-| Mathematica   |                        | [&bull;][math-soln]   |                         |
-| Nimrod        | [&bull;][nim-soln]     |                       |                         |
-| OCaml         | [&bull;][ocaml-soln]   |                       |                         |
-| GNU Octave    | [&bull;][octave-soln]  |                       |                         |
-| Objective-J   | [&bull;][obj-j-soln]   |                       |                         |
-| PHP           |                        |                       | [&bull;][php-non-soln]  |
-| Perl          | [&bull;][perl-soln]    |                       |                         |
-| Perl 6        | [&bull;][perl6-soln]   |                       |                         |
-| Python        | [&bull;][py-soln]      |                       |                         |
-| R             | [&bull;][r-soln]       |                       |                         |
-| Regexp        |                        | [&bull;][regexp-soln] |                         |
-| Ruby          |                        | [&bull;][rb-soln]     |                         |
-| Scala         | [&bull;][scala-soln]   |                       |                         |
-| Scheme        | [&bull;][scm-soln]     |                       |                         |
-| Sed           | [&bull;][sed-soln]     |                       |                         |
-| Shell         |                        | [&bull;][sh-soln]     |                         |
-| TCL           | [&bull;][tcl-soln]     |                       |                         |
-| [XP][xp-lang] | [&bull;][xp-soln]      |                       |                         |
-| ZSH           | [&bull;][zsh-soln]     |                       |                         |
+|               | Solved                 | Incomplete            |
+|:-------------:|:----------------------:|:---------------------:|
+| Befunge       | [&bull;][befunge-soln] |                       |
+| Brainfuck     |                        | [&bull;][bf-soln]     |
+| C             | [&bull;][c-soln]       |                       |
+| C#            | [&bull;][cs-soln]      |                       |
+| C++           | [&bull;][c++-soln]     |                       |
+| Clojure       | [&bull;][clojure-soln] |                       |
+| Coffeescript  | [&bull;][coffee-soln]  |                       |
+| Common Lisp   | [&bull;][clisp-soln]   |                       |
+| D             | [&bull;][d-soln]       |                       |
+| Dart          | [&bull;][dart-soln]    |                       |
+| Emacs Lisp    | [&bull;][elisp-soln]   |                       |
+| English       | [&bull;][eng-soln]     |                       |
+| Forth         | [&bull;][fs-soln]      |                       |
+| [Finite State Transducer][fst] | [&bull;][fst-soln] |          |
+| Go            | [&bull;][go-soln]      |                       |
+| Groovy        | [&bull;][groovy-soln]  |                       |
+| Haskell       | [&bull;][hs-soln]      |                       |
+| Haxe          | [&bull;][hx-soln]      |                       |
+| IO            | [&bull;][io-soln]      |                       |
+| Java          |                        | [&bull;][java-soln]   |
+| JavaScript    | [&bull;][js-soln]      |                       |
+| Julia         | [&bull;][jl-soln]      |                       |
+| Lua           | [&bull;][lua-soln]     |                       |
+| Mathematica   |                        | [&bull;][math-soln]   |
+| Nimrod        | [&bull;][nim-soln]     |                       |
+| OCaml         | [&bull;][ocaml-soln]   |                       |
+| GNU Octave    | [&bull;][octave-soln]  |                       |
+| Objective-J   | [&bull;][obj-j-soln]   |                       |
+| PHP           |                        | [&bull;][php-soln]    |
+| Perl          | [&bull;][perl-soln]    |                       |
+| Perl 6        | [&bull;][perl6-soln]   |                       |
+| Python        | [&bull;][py-soln]      |                       |
+| R             | [&bull;][r-soln]       |                       |
+| Regexp        |                        | [&bull;][regexp-soln] |
+| Ruby          |                        | [&bull;][rb-soln]     |
+| Scala         | [&bull;][scala-soln]   |                       |
+| Scheme        | [&bull;][scm-soln]     |                       |
+| Sed           | [&bull;][sed-soln]     |                       |
+| Shell         |                        | [&bull;][sh-soln]     |
+| TCL           | [&bull;][tcl-soln]     |                       |
+| [XP][xp-lang] | [&bull;][xp-soln]      |                       |
+| ZSH           | [&bull;][zsh-soln]     |                       |
 
 Help out, add some more languages!
 
@@ -113,73 +113,73 @@ These are some of the editor's favorite submissions:
  * ZSH [solution][zsh-ed-pick] by [o11c] with an [explanation][zsh-explain]
 
 [//]: # (Solution URLs)
-[befunge-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/befunge-93
-[bf-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/brainfuck
-[c++-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/c++
-[c-soln]:       https://github.com/eatnumber1/goal/tree/master/solutions/complete/c
-[clisp-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/common-lisp
-[clojure-soln]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/clojure
-[coffee-soln]:  https://github.com/eatnumber1/goal/tree/master/solutions/complete/coffeescript
-[cs-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/c-sharp
-[d-soln]:       https://github.com/eatnumber1/goal/tree/master/solutions/complete/d
-[dart-soln]:    https://github.com/eatnumber1/goal/tree/master/solutions/complete/dart
-[elisp-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/emacs-lisp
-[eng-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/english-spoken
-[fs-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/forth
-[fst-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/finite-state-transducer
-[go-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/go
-[groovy-soln]:  https://github.com/eatnumber1/goal/tree/master/solutions/complete/groovy
-[hs-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/haskell
-[hx-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/haxe
-[io-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/io
-[jl-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/julia
-[js-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/javascript
-[lua-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/lua
-[math-soln]:    https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/mathematica
-[nim-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/nimrod
-[obj-j-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/objective-j
-[ocaml-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/ocaml
-[octave-soln]:  https://github.com/eatnumber1/goal/tree/master/solutions/complete/octave
-[perl-soln]:    https://github.com/eatnumber1/goal/tree/master/solutions/complete/perl
-[perl6-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/perl6
-[py-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/python
-[r-soln]:       https://github.com/eatnumber1/goal/tree/master/solutions/complete/r
-[rb-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/ruby
-[regexp-soln]:  https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/regexp
-[scala-soln]:   https://github.com/eatnumber1/goal/tree/master/solutions/complete/scala
-[scm-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/scheme
-[sed-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/sed
-[sh-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/shell
-[tcl-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/tcl
-[xp-soln]:      https://github.com/eatnumber1/goal/tree/master/solutions/complete/xp
-[zsh-soln]:     https://github.com/eatnumber1/goal/tree/master/solutions/complete/zsh
+[befunge-soln]: https://github.com/eatnumber1/goal/tree/master/solved/befunge-93
+[bf-soln]:      https://github.com/eatnumber1/goal/tree/master/incomplete/brainfuck
+[c++-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/c++
+[c-soln]:       https://github.com/eatnumber1/goal/tree/master/solved/c
+[clisp-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/common-lisp
+[clojure-soln]: https://github.com/eatnumber1/goal/tree/master/solved/clojure
+[coffee-soln]:  https://github.com/eatnumber1/goal/tree/master/solved/coffeescript
+[cs-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/c-sharp
+[d-soln]:       https://github.com/eatnumber1/goal/tree/master/solved/d
+[dart-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/dart
+[elisp-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/emacs-lisp
+[eng-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/english-spoken
+[fs-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/forth
+[fst-soln]:     https://github.com/eatnumber1/goal/tree/master/incomplete/finite-state-transducer
+[go-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/go
+[groovy-soln]:  https://github.com/eatnumber1/goal/tree/master/solved/groovy
+[hs-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/haskell
+[hx-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/haxe
+[io-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/io
+[jl-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/julia
+[js-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/javascript
+[lua-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/lua
+[math-soln]:    https://github.com/eatnumber1/goal/tree/master/incomplete/mathematica
+[nim-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/nimrod
+[obj-j-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/objective-j
+[ocaml-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/ocaml
+[octave-soln]:  https://github.com/eatnumber1/goal/tree/master/solved/octave
+[perl-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/perl
+[perl6-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/perl6
+[py-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/python
+[r-soln]:       https://github.com/eatnumber1/goal/tree/master/solved/r
+[rb-soln]:      https://github.com/eatnumber1/goal/tree/master/incomplete/ruby
+[regexp-soln]:  https://github.com/eatnumber1/goal/tree/master/incomplete/regexp
+[scala-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/scala
+[scm-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/scheme
+[sed-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/sed
+[sh-soln]:      https://github.com/eatnumber1/goal/tree/master/incomplete/shell
+[tcl-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/tcl
+[xp-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/xp
+[zsh-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/zsh
 
 [//]: # (Bad solution URLs)
-[c-limited-calls]: https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/crawford
-[c-self-modify]:   https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/c/tolmasky
-[sh-abort-early]:  https://github.com/eatnumber1/goal/tree/master/solutions/incomplete/shell/csandreasen/goal.sh
+[c-limited-calls]: https://github.com/eatnumber1/goal/tree/master/incomplete/c/crawford
+[c-self-modify]:   https://github.com/eatnumber1/goal/tree/master/incomplete/c/tolmasky
+[sh-abort-early]:  https://github.com/eatnumber1/goal/tree/master/incomplete/shell/csandreasen/goal.sh
 
 [//]: # (Non-solution URLs)
-[java-non-soln]: https://github.com/eatnumber1/goal/tree/master/non-solutions/java
-[php-non-soln]:  https://github.com/eatnumber1/goal/tree/master/non-solutions/php
+[java-soln]: https://github.com/eatnumber1/goal/tree/master/incomplete/java
+[php-soln]:  https://github.com/eatnumber1/goal/tree/master/incomplete/php
 
 [//]: # (Editor's pick URLs)
-[befunge-ed-pick]: https://github.com/eatnumber1/goal/tree/master/solutions/complete/befunge-93/Arcovion/goal.bf
-[c++-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solutions/complete/c%2B%2B/derrickturk/goal.cpp
-[c-ed-pick]:       https://github.com/eatnumber1/goal/blob/master/solutions/complete/c/tolmasky/goal.c
-[cs-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/solutions/complete/c-sharp/scorpiona/Program.cs
-[fst-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solutions/incomplete/finite-state-transducer/zippy-white
-[hs-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/solutions/complete/haskell/capicue/goal.hs
-[nim-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solutions/complete/nimrod/dom96/goal.nim
-[perl-ed-pick]:    https://github.com/eatnumber1/goal/blob/master/solutions/complete/perl/worr/goal.pl
-[sh-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/solutions/incomplete/shell/csandreasen/goal.sh
-[zsh-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solutions/complete/zsh/o11c/goal.zsh
+[befunge-ed-pick]: https://github.com/eatnumber1/goal/tree/master/solved/befunge-93/Arcovion/goal.bf
+[c++-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solved/c%2B%2B/derrickturk/goal.cpp
+[c-ed-pick]:       https://github.com/eatnumber1/goal/blob/master/solved/c/tolmasky/goal.c
+[cs-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/solved/c-sharp/scorpiona/Program.cs
+[fst-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/incomplete/finite-state-transducer/zippy-white
+[hs-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/solved/haskell/capicue/goal.hs
+[nim-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solved/nimrod/dom96/goal.nim
+[perl-ed-pick]:    https://github.com/eatnumber1/goal/blob/master/solved/perl/worr/goal.pl
+[sh-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/incomplete/shell/csandreasen/goal.sh
+[zsh-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solved/zsh/o11c/goal.zsh
 
 [//]: # (Solution explanation URLs)
-[cs-explain]:   https://github.com/eatnumber1/goal/blob/master/solutions/complete/c-sharp/scorpiona/README.md
+[cs-explain]:   https://github.com/eatnumber1/goal/blob/master/solved/c-sharp/scorpiona/README.md
 [hs-explain]:   https://github.com/eatnumber1/goal/issues/99
 [zsh-explain]:  https://github.com/eatnumber1/goal/pull/69#issuecomment-50285290
-[perl-explain]: https://github.com/eatnumber1/goal/blob/master/solutions/complete/perl/worr/README.md
+[perl-explain]: https://github.com/eatnumber1/goal/blob/master/solved/perl/worr/README.md
 
 [//]: # (User URLs)
 [acruikshank]: https://github.com/acruikshank
@@ -195,7 +195,7 @@ These are some of the editor's favorite submissions:
 [zippy-white]: https://github.com/zippy-white
 
 [//]: # (Other URLs)
-[c-sharp-readme]:       https://github.com/eatnumber1/goal/blob/master/solutions/complete/c-sharp/README.md
+[c-sharp-readme]:       https://github.com/eatnumber1/goal/blob/master/solved/c-sharp/README.md
 [carbonfive-challenge]: https://github.com/carbonfive/functional-programming-weekly-challenge/tree/master/Week002
 [fst]:                  http://en.wikipedia.org/wiki/Finite_state_transducer
 [golf]:                 http://en.wikipedia.org/wiki/Code_golf
