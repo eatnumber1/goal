@@ -1,0 +1,24 @@
+import static ImplementationOf::g;
+
+class Test extends unittest.TestCase {
+
+  [@test]
+  public void gal() {
+    $this.assertEquals('gal', g('al'));
+  }
+
+  [@test]
+  public void goal() {
+    $this.assertEquals('goal', g()('al'));
+  }
+
+  [@test]
+  public void gooal() {
+    $this.assertEquals('gooal', g()()('al'));
+  }
+
+  [@test]
+  public void goooal() {
+    $this.assertEquals('goooal', g()()()('al'));
+  }
+}
