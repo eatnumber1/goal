@@ -83,7 +83,7 @@ already been discovered:
 | Scala         | [&bull;][scala-soln]   |                       |
 | Scheme        | [&bull;][scm-soln]     |                       |
 | Sed           | [&bull;][sed-soln]     |                       |
-| Shell         |                        | [&bull;][sh-soln]     |
+| Bourne Shell  |                        | [&bull;][sh-soln]     |
 | TCL           | [&bull;][tcl-soln]     |                       |
 | [XP][xp-lang] | [&bull;][xp-soln]      |                       |
 | ZSH           | [&bull;][zsh-soln]     |                       |
