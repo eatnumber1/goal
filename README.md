@@ -149,7 +149,7 @@ These are some of the editor's favorite submissions:
 [scala-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/scala
 [scm-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/scheme
 [sed-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/sed
-[sh-soln]:      https://github.com/eatnumber1/goal/tree/master/incomplete/shell
+[sh-soln]:      https://github.com/eatnumber1/goal/tree/master/incomplete/bourne-shell
 [tcl-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/tcl
 [xp-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/xp
 [zsh-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/zsh
@@ -157,7 +157,7 @@ These are some of the editor's favorite submissions:
 [//]: # (Bad solution URLs)
 [c-limited-calls]: https://github.com/eatnumber1/goal/tree/master/incomplete/c/crawford
 [c-self-modify]:   https://github.com/eatnumber1/goal/tree/master/incomplete/c/tolmasky
-[sh-abort-early]:  https://github.com/eatnumber1/goal/tree/master/incomplete/shell/csandreasen/goal.sh
+[sh-abort-early]:  https://github.com/eatnumber1/goal/tree/master/incomplete/bourne-shell/csandreasen/goal.sh
 
 [//]: # (Non-solution URLs)
 [java-soln]: https://github.com/eatnumber1/goal/tree/master/incomplete/java
@@ -172,7 +172,7 @@ These are some of the editor's favorite submissions:
 [hs-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/solved/haskell/capicue/goal.hs
 [nim-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solved/nimrod/dom96/goal.nim
 [perl-ed-pick]:    https://github.com/eatnumber1/goal/blob/master/solved/perl/worr/goal.pl
-[sh-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/incomplete/shell/csandreasen/goal.sh
+[sh-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/incomplete/bourne-shell/csandreasen/goal.sh
 [zsh-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solved/zsh/o11c/goal.zsh
 
 [//]: # (Solution explanation URLs)
