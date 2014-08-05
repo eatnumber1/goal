@@ -65,7 +65,7 @@ already been discovered:
 | Haskell       | [&bull;][hs-soln]      |                       |
 | Haxe          | [&bull;][hx-soln]      |                       |
 | IO            | [&bull;][io-soln]      |                       |
-| Java          |                        | [&bull;][java-soln]   |
+| Java          | [&bull;][java-soln]    |                       |
 | JavaScript    | [&bull;][js-soln]      |                       |
 | Julia         | [&bull;][jl-soln]      |                       |
 | Lua           | [&bull;][lua-soln]     |                       |
@@ -107,6 +107,7 @@ These are some of the editor's favorite submissions:
  * C# [solution][cs-ed-pick] by [scorpiona] with an [explanation][cs-explain]
  * Finite State Transducer [solution][fst-ed-pick] by [zippy-white]
  * Haskell [solution][hs-ed-pick] by [capicue] with an [explanation][hs-explain]
+ * Java [solution][java-ed-pick] by [lawl]
  * Nimrod [solution][nim-ed-pick] by [dom96]
  * Perl [solution][perl-ed-pick] by [worr] with an [explanation][perl-explain]
  * SH incomplete [solution][sh-ed-pick] by [csandreasen]
@@ -132,6 +133,7 @@ These are some of the editor's favorite submissions:
 [hs-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/haskell
 [hx-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/haxe
 [io-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/io
+[java-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/java
 [jl-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/julia
 [js-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/javascript
 [lua-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/lua
@@ -170,6 +172,7 @@ These are some of the editor's favorite submissions:
 [cs-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/solved/c-sharp/scorpiona/Program.cs
 [fst-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/incomplete/finite-state-transducer/zippy-white
 [hs-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/solved/haskell/capicue/goal.hs
+[java-ed-pick]:    https://github.com/eatnumber1/goal/blob/master/solved/java/lawl/Main.java
 [nim-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solved/nimrod/dom96/goal.nim
 [perl-ed-pick]:    https://github.com/eatnumber1/goal/blob/master/solved/perl/worr/goal.pl
 [sh-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/incomplete/bourne-shell/csandreasen/goal.sh
@@ -188,6 +191,7 @@ These are some of the editor's favorite submissions:
 [csandreasen]: https://github.com/csandreasen
 [derrickturk]: https://github.com/derrickturk
 [dom96]:       https://github.com/dom96
+[lawl]:        https://github.com/lawl
 [o11c]:        https://github.com/o11c
 [scorpiona]:   https://github.com/scorpiona
 [tolmasky]:    https://github.com/tolmasky
