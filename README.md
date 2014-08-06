@@ -162,7 +162,6 @@ These are some of the editor's favorite submissions:
 [sh-abort-early]:  https://github.com/eatnumber1/goal/tree/master/incomplete/bourne-shell/csandreasen/goal.sh
 
 [//]: # (Non-solution URLs)
-[java-soln]: https://github.com/eatnumber1/goal/tree/master/incomplete/java
 [php-soln]:  https://github.com/eatnumber1/goal/tree/master/incomplete/php
 
 [//]: # (Editor's pick URLs)
