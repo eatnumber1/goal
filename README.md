@@ -107,7 +107,7 @@ These are some of the editor's favorite submissions:
  * C# [solution][cs-ed-pick] by [scorpiona] with an [explanation][cs-explain]
  * Finite State Transducer [solution][fst-ed-pick] by [zippy-white]
  * Haskell [solution][hs-ed-pick] by [capicue] with an [explanation][hs-explain]
- * Java [solution][java-ed-pick] by [lawl]
+ * Java [solution][java-ed-pick] by [lawl] with an [explanation][java-explain]
  * Nimrod [solution][nim-ed-pick] by [dom96]
  * Perl [solution][perl-ed-pick] by [worr] with an [explanation][perl-explain]
  * SH incomplete [solution][sh-ed-pick] by [csandreasen]
@@ -180,6 +180,7 @@ These are some of the editor's favorite submissions:
 [//]: # (Solution explanation URLs)
 [cs-explain]:   https://github.com/eatnumber1/goal/blob/master/solved/c-sharp/scorpiona/README.md
 [hs-explain]:   https://github.com/eatnumber1/goal/issues/99
+[java-explain]: https://github.com/eatnumber1/goal/blob/master/solved/java/lawl/README.md
 [zsh-explain]:  https://github.com/eatnumber1/goal/pull/69#issuecomment-50285290
 [perl-explain]: https://github.com/eatnumber1/goal/blob/master/solved/perl/worr/README.md
 
