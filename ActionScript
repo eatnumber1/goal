@@ -1,0 +1,21 @@
+package
+{
+	public class Gooal
+	{
+		public function Gooal()
+		{
+			trace( g()()()()('al') );
+		}
+		
+		public function g():Function
+		{
+			var s:String='g';
+			function o(v:String=null):Object
+			{
+				s+='o';
+				return v?s+v:o;
+			}
+			return o;
+		}
+	}
+}
