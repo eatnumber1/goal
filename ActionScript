@@ -1,21 +1,9 @@
-package
+function g()
 {
-	public class Gooal
-	{
-		public function Gooal()
-		{
-			trace( g()()()()('al') );
-		}
-		
-		public function g():Function
-		{
-			var s:String='g';
-			function o(v:String=null):Object
-			{
-				s+='o';
-				return v?s+v:o;
-			}
-			return o;
-		}
-	}
+	var s:String='g';return function o(v=null){s+='o';return v?s+v:o}
 }
+
+trace( g()('al') ); 		// goal
+trace( g()()('al') ); 		// gooal
+trace( g()()()('al') ); 	// goooal
+trace( g()()()()('al') ); 	// gooooal
