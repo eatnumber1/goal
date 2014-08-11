@@ -45,6 +45,7 @@ already been discovered:
 
 |               | Solved                 | Incomplete            |
 |:-------------:|:----------------------:|:---------------------:|
+| ActionScript  | [&bull;][as-soln]      |                       |
 | Befunge       | [&bull;][befunge-soln] |                       |
 | Brainfuck     |                        | [&bull;][bf-soln]     |
 | C             | [&bull;][c-soln]       |                       |
@@ -114,6 +115,7 @@ These are some of the editor's favorite submissions:
  * ZSH [solution][zsh-ed-pick] by [o11c] with an [explanation][zsh-explain]
 
 [//]: # (Solution URLs)
+[as-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/actionscript
 [befunge-soln]: https://github.com/eatnumber1/goal/tree/master/solved/befunge-93
 [bf-soln]:      https://github.com/eatnumber1/goal/tree/master/incomplete/brainfuck
 [c++-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/c++
