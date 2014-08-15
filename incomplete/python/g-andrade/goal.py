@@ -16,8 +16,8 @@ def gees( stream=sys.stdin ):
 
 
 demo = StringIO.StringIO("""
-		g('al')
-		g()('al')
-		g()()()()()()('al')
+g('al')
+g()('al')
+g()()()()()()('al')
 """)
 [sys.stdout.write(g+'\n') for g in gees(demo)]
