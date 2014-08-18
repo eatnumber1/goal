@@ -1,4 +1,5 @@
  * [Original][burke]
- * [Shortest][burke]
+ * [Shortest][jlund3]
 
 [burke]: burke
+[jlund3]: jlund3
