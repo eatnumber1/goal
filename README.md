@@ -74,7 +74,8 @@ already been discovered:
 | Nimrod        | [&bull;][nim-soln]     |                       |
 | OCaml         | [&bull;][ocaml-soln]   |                       |
 | Objective-J   | [&bull;][obj-j-soln]   |                       |
-| PHP           | [&bull;][php-solv]     | [&bull;][php-soln]    |
+| PHP           |                        | [&bull;][php-soln]    |
+| PHP 7         | [&bull;][php7-soln]    |                       |
 | Perl          | [&bull;][perl-soln]    |                       |
 | Perl 6        | [&bull;][perl6-soln]   |                       |
 | Python        | [&bull;][py-soln]      |                       |
@@ -142,6 +143,7 @@ These are some of the editor's favorite submissions:
 [math-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/mathematica
 [nim-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/nimrod
 [obj-j-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/objective-j
+[php7-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/php
 [ocaml-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/ocaml
 [octave-soln]:  https://github.com/eatnumber1/goal/tree/master/solved/octave
 [perl-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/perl
@@ -165,7 +167,6 @@ These are some of the editor's favorite submissions:
 
 [//]: # (Non-solution URLs)
 [php-soln]:  https://github.com/eatnumber1/goal/tree/master/incomplete/php
-[php-solv]:  https://github.com/eatnumber1/goal/tree/master/solved/php
 
 [//]: # (Editor's pick URLs)
 [befunge-ed-pick]: https://github.com/eatnumber1/goal/tree/master/solved/befunge-93/Arcovion/goal.bf
