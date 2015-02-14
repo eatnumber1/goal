@@ -143,11 +143,11 @@ These are some of the editor's favorite submissions:
 [math-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/mathematica
 [nim-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/nimrod
 [obj-j-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/objective-j
-[php7-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/php
 [ocaml-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/ocaml
 [octave-soln]:  https://github.com/eatnumber1/goal/tree/master/solved/octave
 [perl-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/perl
 [perl6-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/perl6
+[php7-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/php
 [py-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/python
 [r-soln]:       https://github.com/eatnumber1/goal/tree/master/solved/r
 [rb-soln]:      https://github.com/eatnumber1/goal/tree/master/incomplete/ruby
