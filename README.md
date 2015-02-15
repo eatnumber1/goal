@@ -56,6 +56,7 @@ already been discovered:
 | Common Lisp   | [&bull;][clisp-soln]   |                       |
 | D             | [&bull;][d-soln]       |                       |
 | Dart          | [&bull;][dart-soln]    |                       |
+| [DYLD]        | [&bull;][dyld-soln]    |                       |
 | Emacs Lisp    | [&bull;][elisp-soln]   |                       |
 | English       | [&bull;][eng-soln]     |                       |
 | [Finite State Transducer][fst] | [&bull;][fst-soln] |          |
@@ -108,6 +109,7 @@ These are some of the editor's favorite submissions:
  * C++ [solution][c++-ed-pick] by [derrickturk]
  * C# [solution][cs-ed-pick] by [scorpiona] with an [explanation][cs-explain]
  * Finite State Transducer [solution][fst-ed-pick] by [zippy-white]
+ * Dynamic Linker [solution][dyld-ed-pick] by [eatnumber1]
  * Haskell [solution][hs-ed-pick] by [capicue] with an [explanation][hs-explain]
  * Java [solution][java-ed-pick] by [lawl] with an [explanation][java-explain]
  * Nimrod [solution][nim-ed-pick] by [dom96]
@@ -127,6 +129,7 @@ These are some of the editor's favorite submissions:
 [cs-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/c-sharp
 [d-soln]:       https://github.com/eatnumber1/goal/tree/master/solved/d
 [dart-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/dart
+[dyld-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/dyld
 [elisp-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/emacs-lisp
 [eng-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/english-spoken
 [fs-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/forth
@@ -173,6 +176,7 @@ These are some of the editor's favorite submissions:
 [c++-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/solved/c%2B%2B/derrickturk/goal.cpp
 [c-ed-pick]:       https://github.com/eatnumber1/goal/blob/master/solved/c/tolmasky/goal.c
 [cs-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/solved/c-sharp/scorpiona/Program.cs
+[dyld-ed-pick]:    https://github.com/eatnumber1/goal/tree/master/solved/dyld/eatnumber1
 [fst-ed-pick]:     https://github.com/eatnumber1/goal/blob/master/incomplete/finite-state-transducer/zippy-white
 [hs-ed-pick]:      https://github.com/eatnumber1/goal/blob/master/solved/haskell/capicue/goal.hs
 [java-ed-pick]:    https://github.com/eatnumber1/goal/blob/master/solved/java/lawl/Main.java
@@ -195,6 +199,7 @@ These are some of the editor's favorite submissions:
 [csandreasen]: https://github.com/csandreasen
 [derrickturk]: https://github.com/derrickturk
 [dom96]:       https://github.com/dom96
+[eatnumber1]:  https://github.com/eatnumber1
 [lawl]:        https://github.com/lawl
 [o11c]:        https://github.com/o11c
 [scorpiona]:   https://github.com/scorpiona
@@ -205,6 +210,7 @@ These are some of the editor's favorite submissions:
 [//]: # (Other URLs)
 [c-sharp-readme]:       https://github.com/eatnumber1/goal/blob/master/solved/c-sharp/README.md
 [carbonfive-challenge]: https://github.com/carbonfive/functional-programming-weekly-challenge/tree/master/Week002
+[dyld]:                 http://en.wikipedia.org/wiki/Dynamic_linking
 [fst]:                  http://en.wikipedia.org/wiki/Finite_state_transducer
 [golf]:                 http://en.wikipedia.org/wiki/Code_golf
 [rvalue]:               http://en.wikipedia.org/wiki/Value_(computer_science)#lrvalue

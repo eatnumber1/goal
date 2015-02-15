@@ -1,0 +1,20 @@
+#!/bin/sh
+
+UNAME="`uname -s`"
+if [[ "$UNAME" == Darwin ]]; then
+	function set_vars {
+		DYLD_INSERT_LIBRARIES="$PWD/goal.dylib"
+		export DYLD_INSERT_LIBRARIES
+
+		DYLD_FORCE_FLAT_NAMESPACE=1
+		export DYLD_FORCE_FLAT_NAMESPACE
+	}
+else
+	function set_vars {
+		LD_PRELOAD="$PWD/goal.so"
+		export LD_PRELOAD
+	}
+fi
+
+set_vars
+exec "$@"
