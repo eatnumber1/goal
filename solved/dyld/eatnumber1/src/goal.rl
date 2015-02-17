@@ -14,7 +14,7 @@
 	machine goal;
 
 	action incr_ohs {
-		assert(num_ohs <= UINT_MAX);
+		assert(num_ohs < UINT_MAX);
 		num_ohs++;
 	}
 
