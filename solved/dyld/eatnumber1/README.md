@@ -14,4 +14,4 @@ application prefixed with the `./goal` wrapper script. E.x.
 [dyld]: http://en.wikipedia.org/wiki/Dynamic_linking
 [fsm]: https://en.wikipedia.org/wiki/Finite-state_machine
 [ragel]: http://www.colm.net/open-source/ragel/
-[dyld-fsm]: goal.svg
+[dyld-fsm]: src/goal.svg

@@ -2,16 +2,16 @@ CC := clang
 RAGEL ?= ragel
 DOT ?= dot
 
-RAGEL_SRCS := goal.rl
-C_SRCS := write.c
-TEST_C_SRCS := goal_test.c write_test.c test_common.c
+RAGEL_SRCS := src/goal.rl
+C_SRCS := src/write.c
+TEST_C_SRCS := test/goal_test.c test/write_test.c test/test_common.c
 
 CPPFLAGS := -pedantic -std=c11 -Weverything -Werror -Wno-vla -fvisibility=hidden
 CFLAGS := -fPIC
 LDFLAGS :=
 LIBS := -ldl
 
-TEST_CPPFLAGS := $(shell pkg-config --cflags glib-2.0)
+TEST_CPPFLAGS := $(shell pkg-config --cflags glib-2.0) -Isrc
 TEST_LIBS := $(shell pkg-config --libs glib-2.0)
 
 OBJS := $(RAGEL_SRCS:.rl=.o) $(C_SRCS:.c=.o)
