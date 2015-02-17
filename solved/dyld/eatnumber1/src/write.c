@@ -15,16 +15,12 @@
 typedef ssize_t (write_fn_t)(int, const void *, size_t);
 static write_fn_t *real_write;
 
-__attribute__((noreturn))
+__attribute__((noreturn, format(printf, 1, 2)))
 static void die(const char *fmt, ...) {
 	va_list ap;
 	va_start(ap, fmt);
 	fprintf(stderr, "goal: ");
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wunknown-pragmas"
-#pragma clang diagnostic ignored "-Wformat-nonliteral"
 	vfprintf(stderr, fmt, ap);
-#pragma clang diagnostic pop
 	fprintf(stderr, "\n");
 	va_end(ap);
 	exit(EXIT_FAILURE);
