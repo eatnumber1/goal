@@ -68,6 +68,62 @@ static void multiple_gs(void) {
 	test_rewrite("gg()('al')gg", "ggoalgg");
 }
 
+static void partial1(void) {
+	test_rewrite("g", "g");
+}
+
+static void partial2(void) {
+	test_rewrite("g(", "g(");
+}
+
+static void partial3(void) {
+	test_rewrite("g(", "g(");
+}
+
+static void partial4(void) {
+	test_rewrite("g('", "g('");
+}
+
+static void partial5(void) {
+	test_rewrite("g('a", "g('a");
+}
+
+static void partial6(void) {
+	test_rewrite("g('al", "g('al");
+}
+
+static void partial7(void) {
+	test_rewrite("g('al'", "g('al'");
+}
+
+static void partial8(void) {
+	test_rewrite("g()", "g()");
+}
+
+static void partial9(void) {
+	test_rewrite("g()(", "g()(");
+}
+
+static void partial10(void) {
+	test_rewrite("g()('", "g()('");
+}
+
+static void partial11(void) {
+	test_rewrite("g()('a", "g()('a");
+}
+
+static void partial12(void) {
+	test_rewrite("g()('al", "g()('al");
+}
+
+static void partial13(void) {
+	test_rewrite("g()('al'", "g()('al'");
+}
+
+static void partial_restart(void) {
+	test_rewrite("g()()(g()('al')", "g()()(goal");
+}
+
 void goal_test_register(void) {
 	g_test_add_func("/dyld/ragel/no_inner_oh", no_inner_oh);
 	g_test_add_func("/dyld/ragel/one_inner_oh", one_inner_oh);
@@ -82,4 +138,18 @@ void goal_test_register(void) {
 	g_test_add_func("/dyld/ragel/multiple_goals_inner_garbage", multiple_goals_inner_garbage);
 	g_test_add_func("/dyld/ragel/multiple_goals_postfix_garbage", multiple_goals_postfix_garbage);
 	g_test_add_func("/dyld/ragel/multiple_gs", multiple_gs);
+	g_test_add_func("/dyld/ragel/partial1", partial1);
+	g_test_add_func("/dyld/ragel/partial2", partial2);
+	g_test_add_func("/dyld/ragel/partial3", partial3);
+	g_test_add_func("/dyld/ragel/partial4", partial4);
+	g_test_add_func("/dyld/ragel/partial5", partial5);
+	g_test_add_func("/dyld/ragel/partial6", partial6);
+	g_test_add_func("/dyld/ragel/partial7", partial7);
+	g_test_add_func("/dyld/ragel/partial8", partial8);
+	g_test_add_func("/dyld/ragel/partial9", partial9);
+	g_test_add_func("/dyld/ragel/partial10", partial10);
+	g_test_add_func("/dyld/ragel/partial11", partial11);
+	g_test_add_func("/dyld/ragel/partial12", partial12);
+	g_test_add_func("/dyld/ragel/partial13", partial13);
+	g_test_add_func("/dyld/ragel/partial_restart", partial_restart);
 }
