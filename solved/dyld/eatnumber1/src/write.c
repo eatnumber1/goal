@@ -46,5 +46,5 @@ ssize_t write(int fildes, const void *buf, size_t nbyte) {
 	} else if (written == -1) {
 		return -1;
 	}
-	die("Partial write not supported\n");
+	die("Partial write not supported");
 }
