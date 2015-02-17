@@ -18,7 +18,7 @@ OBJS := $(RAGEL_SRCS:.rl=.o) $(C_SRCS:.c=.o)
 SVGS := $(RAGEL_SRCS:.rl=.svg)
 PDFS := $(RAGEL_SRCS:.rl=.pdf)
 
-TEST_OBJS := $(TEST_C_SRCS:.c=.o) $(OBJS)
+TEST_OBJS := $(TEST_C_SRCS:.c=.o)
 
 UNAME_S := $(shell uname -s)
 ifeq ($(UNAME_S),Darwin)
@@ -45,12 +45,11 @@ test: $(TEST_EXE)
 	$(PWD)/$(TEST_EXE)
 
 $(GOAL_LIB): $(OBJS)
-
 $(GOAL_LIB): CPPFLAGS := $(CPPFLAGS)
 
-$(TEST_EXE): $(TEST_OBJS) $(OBJS)
+$(TEST_OBJS): CPPFLAGS := $(CPPFLAGS) $(TEST_CPPFLAGS)
 
-$(TEST_EXE): CPPFLAGS := $(CPPFLAGS) $(TEST_CPPFLAGS)
+$(TEST_EXE): $(TEST_OBJS) $(OBJS)
 $(TEST_EXE): LIBS := $(LIBS) $(TEST_LIBS)
 
 %.dot: %.rl
