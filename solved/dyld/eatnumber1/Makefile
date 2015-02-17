@@ -16,6 +16,7 @@ TEST_LIBS := $(shell pkg-config --libs glib-2.0)
 
 OBJS := $(RAGEL_SRCS:.rl=.o) $(C_SRCS:.c=.o)
 SVGS := $(RAGEL_SRCS:.rl=.svg)
+PDFS := $(RAGEL_SRCS:.rl=.pdf)
 
 TEST_OBJS := $(TEST_C_SRCS:.c=.o) $(OBJS)
 
@@ -30,16 +31,15 @@ GOAL_LIB := goal.$(LIB_SUFFIX)
 TEST_EXE := goal_test.exe
 
 .DEFAULT: all
-.PHONY: all clean svg lib test
+.PHONY: all clean svg pdf lib test
 
 all: lib svg
-
 svg: $(SVGS)
-
+pdf: $(PDFS)
 lib: $(GOAL_LIB)
 
 clean:
-	$(RM) $(SVGS) $(OBJS) $(GOAL_LIB) $(TEST_EXE) $(TEST_OBJS)
+	$(RM) $(SVGS) $(PDFS) $(OBJS) $(GOAL_LIB) $(TEST_EXE) $(TEST_OBJS)
 
 test: $(TEST_EXE)
 	$(PWD)/$(TEST_EXE)
@@ -54,10 +54,13 @@ $(TEST_EXE): CPPFLAGS := $(CPPFLAGS) $(TEST_CPPFLAGS)
 $(TEST_EXE): LIBS := $(LIBS) $(TEST_LIBS)
 
 %.dot: %.rl
-	$(RAGEL) -p -V -o $@ -n $<
+	$(RAGEL) -p -V -o $@ $<
 
 %.svg: %.dot
 	$(DOT) -Tsvg -o $@ $<
+
+%.pdf: %.dot
+	$(DOT) -Tpdf -o $@ $<
 
 %.c: %.rl
 	$(RAGEL) -o $@ -C -G2 $<

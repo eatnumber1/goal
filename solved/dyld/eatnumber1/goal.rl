@@ -13,68 +13,45 @@
 %%{
 	machine goal;
 
-	action inner_oh {
+	action incr_ohs {
 		assert(num_ohs <= UINT_MAX);
 		num_ohs++;
 	}
 
-	action goal_found {
-		*(strp++) = 'g';
-		for (unsigned int i = 0; i < num_ohs; i++) {
-			*(strp++) = 'o';
-			(*len)++;
-		}
-		*(strp++) = 'a';
-		*(strp++) = 'l';
-		*len += 3;
-		fhold;
-		fret;
+	action advance_strp {
+		*(strp++) = fc;
 	}
 
 	action init_goal {
 		num_ohs = 0;
-		chars_consumed = 0;
 	}
 
-	action goal_rollback {
-		char *cp = fpc - chars_consumed;
-		memcpy(strp, cp, chars_consumed);
-		strp += chars_consumed;
-		*len += chars_consumed;
-		fhold;
-		fret;
-	}
+	action goal {
+		static const unsigned int NCHARS_WITHOUT_OHS = 7; // g('al')
+		static const unsigned int NCHARS_WITHOUT_OHS_AFTER = 3; // gal
+		static const unsigned int NCHARS_IN_OH = 2; // ()
 
-	action buffer_advance_strp {
-		*(strp++) = fc;
-		(*len)++;
-	}
+		char *sp = strp - NCHARS_WITHOUT_OHS - (num_ohs * NCHARS_IN_OH);
+		assert(*sp == 'g');
+		sp++;
+		for (unsigned int i = 0; i < num_ohs; i++) {
+			*(sp++) = 'o';
+		}
+		*(sp++) = 'a';
+		*(sp++) = 'l';
 
-	action call_goal {
-		fhold;
-		fcall goal;
-	}
-
-	action goal_consume_char {
-		num_to_rollback++;
-	}
-
-	action buffer_init {
-		*len = 0;
-	}
-
-	action goal_all {
-		chars_consumed++;
+		strp = sp;
+		*len -= num_ohs + (NCHARS_WITHOUT_OHS - NCHARS_WITHOUT_OHS_AFTER);
 	}
 
 	quote = ["'"'"'];
 	endal = '(' quote 'al' quote ')';
-	goal := ('g' ('()' @inner_oh)* endal) %!goal_found %goal_found >init_goal @!goal_rollback $goal_all;
+	goal = ('g' ('()' @incr_ohs)* endal);
 
 	main := (
-		  (any -- 'g') $buffer_advance_strp
-		| 'g' @call_goal
-	)* >buffer_init;
+		  any+
+		| goal >init_goal %goal
+	)* $advance_strp;
 }%%
 
 #pragma clang diagnostic push
@@ -85,21 +62,13 @@
 
 void rewrite(char *buf, size_t *len) {
 	unsigned int num_ohs = 0;
-	int cs = %%{ write start; }%%;
 	char *strp = buf;
-	unsigned int chars_consumed = 0;
 
+	int cs = %%{ write start; }%%;
 	char *p = buf;
 	char *pe = buf + *len;
-	int stack[1024];
-	int top = 0;
 	char *eof = pe;
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wunknown-pragmas"
-#pragma clang diagnostic ignored "-Wunreachable-code"
-#pragma clang diagnostic ignored "-Wunreachable-code-break"
 	%% write init;
 	%% write exec;
-#pragma clang diagnostic pop
 }
