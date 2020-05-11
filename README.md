@@ -47,6 +47,7 @@ already been discovered:
 |:-------------:|:----------------------:|:---------------------:|
 | ActionScript  | [&bull;][as-soln]      |                       |
 | Befunge       | [&bull;][befunge-soln] |                       |
+| Bel           | [&bull;][bel-soln]     |                       |
 | Brainfuck     |                        | [&bull;][bf-soln]     |
 | C             | [&bull;][c-soln]       |                       |
 | C#            | [&bull;][cs-soln]      |                       |
@@ -120,6 +121,7 @@ These are some of the editor's favorite submissions:
 [//]: # (Solution URLs)
 [as-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/actionscript
 [befunge-soln]: https://github.com/eatnumber1/goal/tree/master/solved/befunge-93
+[bel-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/bel
 [bf-soln]:      https://github.com/eatnumber1/goal/tree/master/incomplete/brainfuck
 [c++-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/c++
 [c-soln]:       https://github.com/eatnumber1/goal/tree/master/solved/c

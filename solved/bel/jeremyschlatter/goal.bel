@@ -1,0 +1,9 @@
+(mac g args
+  `(append "g" ,@(map [or (car _) "o"] args)))
+
+(map prn
+  (list
+    (g("al"))
+    (g()("al"))
+    (g()()("al"))
+    (g()()()()("al"))))
