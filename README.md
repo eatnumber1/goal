@@ -73,6 +73,7 @@ already been discovered:
 | Lua           | [&bull;][lua-soln]     |                       |
 | Mathematica   | [&bull;][math-soln]    |                       |
 | Nimrod        | [&bull;][nim-soln]     |                       |
+| Nix           |                        | [&bull;][nix-soln]    |
 | OCaml         | [&bull;][ocaml-soln]   |                       |
 | Objective-J   | [&bull;][obj-j-soln]   |                       |
 | PHP           |                        | [&bull;][php-soln]    |
@@ -145,6 +146,7 @@ These are some of the editor's favorite submissions:
 [lua-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/lua
 [math-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/mathematica
 [nim-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/nimrod
+[nix-soln]:     https://github.com/eatnumber1/goal/tree/master/incomplete/nix
 [obj-j-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/objective-j
 [ocaml-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/ocaml
 [octave-soln]:  https://github.com/eatnumber1/goal/tree/master/solved/octave
