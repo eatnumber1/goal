@@ -71,6 +71,7 @@ already been discovered:
 | Java          | [&bull;][java-soln]    |                       |
 | JavaScript    | [&bull;][js-soln]      |                       |
 | Julia         | [&bull;][jl-soln]      |                       |
+| Kotlin        | [&bull;][kt-soln]      |                       |
 | Lua           | [&bull;][lua-soln]     |                       |
 | Mathematica   | [&bull;][math-soln]    |                       |
 | Nimrod        | [&bull;][nim-soln]     |                       |
@@ -145,6 +146,7 @@ These are some of the editor's favorite submissions:
 [java-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/java
 [jl-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/julia
 [js-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/javascript
+[kt-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/kotlin
 [lua-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/lua
 [math-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/mathematica
 [nim-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/nimrod
