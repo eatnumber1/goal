@@ -86,6 +86,7 @@ already been discovered:
 | R             | [&bull;][r-soln]       |                       |
 | Regexp        |                        | [&bull;][regexp-soln] |
 | Ruby          |                        | [&bull;][rb-soln]     |
+| Rust          | [&bull;][rust-soln]    |                       |
 | Scala         | [&bull;][scala-soln]   |                       |
 | Scheme        | [&bull;][scm-soln]     |                       |
 | Sed           | [&bull;][sed-soln]     |                       |
@@ -160,6 +161,7 @@ These are some of the editor's favorite submissions:
 [py-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/python
 [r-soln]:       https://github.com/eatnumber1/goal/tree/master/solved/r
 [rb-soln]:      https://github.com/eatnumber1/goal/tree/master/incomplete/ruby
+[rust-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/rust
 [regexp-soln]:  https://github.com/eatnumber1/goal/tree/master/incomplete/regexp
 [scala-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/scala
 [scm-soln]:     https://github.com/eatnumber1/goal/tree/master/solved/scheme
