@@ -84,6 +84,7 @@ already been discovered:
 | Perl 6        | [&bull;][perl6-soln]   |                       |
 | Python        | [&bull;][py-soln]      |                       |
 | R             | [&bull;][r-soln]       |                       |
+| Raku          | [&bull;][raku-soln]    |                       |
 | Regexp        |                        | [&bull;][regexp-soln] |
 | Ruby          |                        | [&bull;][rb-soln]     |
 | Rust          | [&bull;][rust-soln]    |                       |
