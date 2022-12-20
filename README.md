@@ -160,6 +160,7 @@ These are some of the editor's favorite submissions:
 [php7-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/php
 [py-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/python
 [r-soln]:       https://github.com/eatnumber1/goal/tree/master/solved/r
+[raku-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/raku
 [rb-soln]:      https://github.com/eatnumber1/goal/tree/master/incomplete/ruby
 [rust-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/rust
 [regexp-soln]:  https://github.com/eatnumber1/goal/tree/master/incomplete/regexp
