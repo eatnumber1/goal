@@ -81,7 +81,6 @@ already been discovered:
 | PHP           |                        | [&bull;][php-soln]    |
 | PHP 7         | [&bull;][php7-soln]    |                       |
 | Perl          | [&bull;][perl-soln]    |                       |
-| Perl 6        | [&bull;][perl6-soln]   |                       |
 | Python        | [&bull;][py-soln]      |                       |
 | R             | [&bull;][r-soln]       |                       |
 | Raku          | [&bull;][raku-soln]    |                       |
@@ -157,7 +156,6 @@ These are some of the editor's favorite submissions:
 [ocaml-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/ocaml
 [octave-soln]:  https://github.com/eatnumber1/goal/tree/master/solved/octave
 [perl-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/perl
-[perl6-soln]:   https://github.com/eatnumber1/goal/tree/master/solved/perl6
 [php7-soln]:    https://github.com/eatnumber1/goal/tree/master/solved/php
 [py-soln]:      https://github.com/eatnumber1/goal/tree/master/solved/python
 [r-soln]:       https://github.com/eatnumber1/goal/tree/master/solved/r
